@@ -154,7 +154,18 @@ bindsym $mod+Shift+9 move container to workspace number $ws9
 bindsym $mod+Shift+0 move container to workspace number $ws10
 
 #############################
-### settings for i3-gaps: ###
+#    Workspace Bindings     #
+#############################
+
+# assign [class="Gnome-terminal"] $ws1
+assign [class="Brave-browser"] $ws2
+assign [class="Code"] $ws3
+assign [class="Discord"] $ws4
+assign [class="Org.gnome.Nautilus"] $ws5
+
+
+#############################
+#   settings for i3-gaps:   #
 #############################
 
 # Set inner/outer gaps
@@ -220,7 +231,9 @@ mode "$mode_gaps_outer" {
 set $fg "#888888"
 set $bg "#888888"
 
-# Colors------------------------------
+#################
+#     Colors    #
+#################
 
 # class                 border  backgr. text    indicator child_border
 client.focused          #ef4f4f #285577 #ffffff #16c79a   #16c79a
@@ -287,7 +300,6 @@ bindsym Ctrl+Shift+Print exec --no-startup-id maim --select | xclip -selection c
 ################## 
 exec_always --no-startup-id $HOME/.config/polybar/forest/launch.sh
 exec i3-sensible-terminal
-exec compton
 exec_always $HOME/Documents/mouse_scroll.sh
 exec_always --no-startup-id /usr/bin/feh --randomize ~/.config/i3/feh --bg-fill
 
@@ -297,4 +309,7 @@ exec_always --no-startup-id /usr/bin/feh --randomize ~/.config/i3/feh --bg-fill
 bindsym $mod+shift+b exec brave-browser
 bindsym $mod+ctrl+c exec code
 bindsym $mod+ctrl+f exec firefox --private
-bindsym alt+c exec gnome-calculator
+bindsym $mod+g exec gnome-calculator
+bindsym ctrl+shift+m exec $HOME/Documents/mouse_scroll.sh
+bindsym $mod+n exec nautilus
+bindsym $mod+shift+d exec discord 
