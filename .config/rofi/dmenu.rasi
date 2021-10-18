@@ -1,0 +1,61 @@
+* {  
+    font:            "Hasklug Nerd Font 9";
+    background-color:      #222;
+    border-color:          White;
+    text-color:           White;
+}
+
+/* Window */
+
+window {
+    anchor: north;
+    location: north;
+    width: 100%;
+    margin: 5px;
+    children: [ horibox ];
+}
+
+/* Window container */
+
+horibox {
+    orientation: horizontal;
+    children:   [ prompt, entry, listview ];
+}
+
+/* Run prompt  */
+
+prompt {
+   border-radius: 4px 0px 0px 4px;
+   background-color: #ffc107;
+   text-color: black;
+   padding: 5px 18px;
+}
+
+
+/* Input filed */
+
+entry {
+   border-radius: 4px;
+   expand: false;
+   width: 430px;
+   padding: 8px;
+   vertical-aign: south;
+}
+
+
+listview {
+    layout:     horizontal;
+    spacing:    20px;
+    lines:      100;
+}
+
+element {
+  border: 0px;
+  padding: 9px 25px 6px 25px;
+  margin: 0px;
+}
+
+element selected {
+    background-color: #FFC107;
+    color: black;
+}

@@ -1,0 +1,28 @@
+User belongs to experiment group 'pythonaacf'
+User belongs to experiment group 'pythonJediLSP'
+User belongs to experiment group 'pythonDiscoveryModuleWithoutWatcher'
+User belongs to experiment group 'pythonTensorboardExperiment'
+User belongs to experiment group 'PythonPyTorchProfiler'
+User belongs to experiment group 'pythonDeprecatePythonPath'
+User belongs to experiment group 'pythonSortEnvs'
+User belongs to experiment group 'pythonRunFailedTestsButtonDisplayed'
+User belongs to experiment group 'pythonRefreshTestsButtonDisplayed'
+User belongs to experiment group 'pythonRememberDebugConfig'
+> conda info --json
+> /bin/python3 ~/.vscode/extensions/ms-python.python-2021.10.1336267007/pythonFiles/interpreterInfo.py
+> /usr/bin/python3 ~/.vscode/extensions/ms-python.python-2021.10.1336267007/pythonFiles/interpreterInfo.py
+Python interpreter path: /bin/python3
+Starting Pylance language server.
+> conda --version
+> /bin/python3 -m autopep8 --diff ~/Documents/github_projects/project3006/compare.py
+cwd: ~/Documents
+> /bin/python3 -c "import autopep8"
+> /bin/python3 -c "import autopep8"
+
+Formatting with autopep8 failed.
+You could either install the 'autopep8' formatter, turn it off or use another formatter.
+Error: Module 'autopep8' not installed.
+> /bin/python3 -c "import pip"
+> /bin/python3 -c "import autopep8"
+> /bin/python3 -m autopep8 --diff ~/Documents/github_projects/project3006/compare.py
+cwd: ~/Documents

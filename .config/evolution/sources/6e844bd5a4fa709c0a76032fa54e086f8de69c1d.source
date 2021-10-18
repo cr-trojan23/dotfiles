@@ -1,0 +1,20 @@
+[Data Source]
+DisplayName=pandusrinu1604@gmail.com
+Enabled=true
+Parent=a79c30c0b8c0abb83365e6959c6f29ef144793f4
+
+[Authentication]
+Host=smtp.gmail.com
+Method=XOAUTH2
+Port=465
+ProxyUid=system-proxy
+RememberPassword=true
+User=pandusrinu1604@gmail.com
+CredentialName=
+IsExternal=false
+
+[Security]
+Method=ssl-on-alternate-port
+
+[Mail Transport]
+BackendName=smtp

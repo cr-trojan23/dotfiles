@@ -1,0 +1,8 @@
+> conda info --json
+> /bin/python3 ~/.vscode/extensions/ms-python.python-2021.10.1336267007/pythonFiles/interpreterInfo.py
+> /usr/bin/python3 ~/.vscode/extensions/ms-python.python-2021.10.1336267007/pythonFiles/interpreterInfo.py
+Python interpreter path: /bin/python3
+Starting Pylance language server.
+> conda --version
+Error 2021-10-18 12:06:57: Error while running worker[Worker 2]. undefined
+Error 2021-10-18 12:06:57: Error while running worker[Worker 1]. undefined

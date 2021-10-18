@@ -1,0 +1,6 @@
+2021/10/18-14:36:42.657 6970 Creating DB /home/kiaria/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_docs.google.com_0.indexeddb.leveldb since it was missing.
+2021/10/18-14:36:42.661 6970 Reusing MANIFEST /home/kiaria/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_docs.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/10/18-14:39:54.595 7feb Level-0 table #5: started
+2021/10/18-14:39:54.597 7feb Level-0 table #5: 329508 bytes OK
+2021/10/18-14:39:54.598 7feb Delete type=0 #3
+2021/10/18-14:39:54.599 7feb Manual compaction at level-0 from (begin) .. (end); will stop at (end)

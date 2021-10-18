@@ -1,0 +1,4 @@
+[18/10/2021 12:13:14 - INFO] Discord Presence activated
+[18/10/2021 12:13:14 - INFO] Creating discord-rpc client
+[18/10/2021 12:13:14 - ERROR] Encountered following error while trying to login:
+Error: Could not connect

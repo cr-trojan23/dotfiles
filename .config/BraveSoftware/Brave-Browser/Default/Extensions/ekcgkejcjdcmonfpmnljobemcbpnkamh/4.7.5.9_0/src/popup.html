@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>WA Web Plus</title>
+	<meta charset='utf-8'>
+	<style type="text/css">
+		ul li:not(:last-child):not(#online-no-unread)::after {
+			content: " ";
+			background: #eae3e3;
+			height: 1px;
+			width: 100%;
+			position: absolute;
+			top: 36px;
+		}
+		ul li:hover {
+			background: #eee;
+			border-top-left-radius: 50px;
+			border-bottom-left-radius: 50px;
+			cursor: pointer;
+		}
+		ul li .message {
+			margin-top: 0;
+			overflow: hidden;
+			white-space: nowrap;
+			text-overflow: ellipsis;
+			color: #666666;
+		}
+		ul li .name {
+			margin-bottom: 0;
+            overflow:hidden; 
+            white-space:nowrap; 
+            text-overflow: ellipsis;
+		}
+		ul li .image {
+			width: 30px;
+			border-radius: 50%;
+			float: left;
+			margin-right: 5px;
+		}
+		ul li {
+			position: relative;
+		}
+		.noselect {
+			-webkit-touch-callout: none; /* iOS Safari */
+			-webkit-user-select: none; /* Safari */
+			-khtml-user-select: none; /* Konqueror HTML */
+			-moz-user-select: none; /* Firefox */
+			-ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+            supported by Chrome and Opera */
+        }
+
+        #settings {
+        	float: right;
+        	cursor: pointer;
+        }
+
+        #settings:hover {
+        	text-decoration: underline;
+        }
+
+
+
+        .spinner-container {
+        	-webkit-animation: rotate 2s linear infinite;
+        	animation: rotate 2s linear infinite;
+        	z-index: 2;
+        	width:65px; height:65px;
+        	margin: 100px auto;
+        	display:block;
+        }
+
+        .spinner-container .path {
+        	stroke-dasharray: 1,150; /* 1%, 101% circumference */
+        	stroke-dashoffset: 0;
+        	stroke: rgba(27, 154, 89, 0.7);
+        	stroke-linecap: round;
+        	-webkit-animation: dash 1.5s ease-in-out infinite;
+        	animation: dash 1.5s ease-in-out infinite;
+        }
+
+        @keyframes rotate {
+        	100% { transform: rotate(360deg); }
+        }
+        @-webkit-keyframes rotate{
+        	100% { -webkit-transform: rotate(360deg); }
+        }
+
+        @keyframes dash {
+        	0% {
+        		stroke-dasharray: 1,150;  /* 1%, 101% circumference */
+        		stroke-dashoffset: 0;
+        	}
+        	50% {
+        		stroke-dasharray: 90,150; /* 70%, 101% circumference */
+        		stroke-dashoffset: -35;   /* 25% circumference */
+        	}
+        	100% {
+        		stroke-dasharray: 90,150; /* 70%, 101% circumference */
+        		stroke-dashoffset: -124;  /* -99% circumference */
+        	}
+        }
+        @-webkit-keyframes dash {
+        	0% {
+        		stroke-dasharray: 1,150;  /* 1%, 101% circumference */
+        		stroke-dashoffset: 0;
+        	}
+        	50% {
+        		stroke-dasharray: 90,150; /* 70%, 101% circumference */
+        		stroke-dashoffset: -35;   /* 25% circumference */
+        	}
+        	100% {
+        		stroke-dasharray: 90,150; /* 70%, 101% circumference */
+        		stroke-dashoffset: -124;  /* -99% circumference */
+        	}
+        }
+
+    </style>
+    <script type="text/javascript" src="js/popup.js"></script>
+</head>
+<body style="width: 200px;overflow-x: auto" class="openOrSwitchWAW noselect">
+	<div style="background-color: #009688; color: #ffffff;padding: 5px;margin: -5px;">WA Web Plus <small style="font-size: xx-small;" class="wawVersion"></small><small id="settings">Settings</small></div>
+	<ul style="list-style: none;padding: 0">
+		<li style="background-color: #ffffff;text-align: center;display: none" id="online-no-unread">
+			<img src="img/message.png" style="width: 80%">
+			<p>You have no unread chats.</p>
+			<p><a href="#" style="color: #39b3ed;text-decoration:none">Switch to WhatsApp Web</a></p>
+		</li>
+		<li style="background-color: #ffffff;text-align: center;display: none" id="offline">
+			<img src="img/wa-index.png" style="width: 100%;margin-right: -10px;">
+			<p style="margin: 0">Open <a href="#" style="color: #39b3ed;text-decoration:none">WhatsApp Web</a> first.</p>
+		</li>
+		<li>
+			<svg class="spinner-container" viewBox="0 0 44 44">
+				<circle class="path" cx="22" cy="22" r="20" fill="none" stroke-width="4"></circle>
+			</svg>
+		</li>
+		</ul>
+	</body>
+	</html>

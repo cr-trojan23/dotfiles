@@ -1,0 +1,1783 @@
+{
+   "10_license_users": {
+      "message": "شهادة لـ10 مستخدم"
+   },
+   "1_license_user": {
+      "message": "شهادة لمستخدم واحد"
+   },
+   "20_license_users": {
+      "message": "شهادة لـ20 مستخدم"
+   },
+   "5_license_users": {
+      "message": "شهادة لـ5 مستخدمين"
+   },
+   "ACTIVE": {
+      "message": "مفعل"
+   },
+   "CANCELLED": {
+      "message": "ملغي"
+   },
+   "CANCELLED_BY_DEVELOPER": {
+      "message": "تم إلغاؤه من المطور"
+   },
+   "DISABLED": {
+      "message": "معطل"
+   },
+   "EXPERT": {
+      "message": "خبير"
+   },
+   "EXPIRED": {
+      "message": "إنتهى"
+   },
+   "OK": {
+      "message": "حسناً"
+   },
+   "PAYMENT_DECLINED": {
+      "message": "تم رفض الدفعة"
+   },
+   "PENDING": {
+      "message": "قيد المعالجة"
+   },
+   "PROFESSIONAL": {
+      "message": "محترف"
+   },
+   "REJECTED": {
+      "message": "مرفوض"
+   },
+   "RESET": {
+      "message": "استعادة"
+   },
+   "SAVE": {
+      "message": "حفظ"
+   },
+   "STARTER": {
+      "message": "مبتدئ"
+   },
+   "aborted": {
+      "message": "تم الإيقاف"
+   },
+   "about": {
+      "message": "من نحن؟"
+   },
+   "about_us": {
+      "message": "من نحن؟"
+   },
+   "accepted_payment_methods": {
+      "message": "وسائل الدفع المسموحة"
+   },
+   "action_name": {
+      "message": "اسم المهمة"
+   },
+   "action_scheduled_successfully": {
+      "message": "تم جدولة المهمة بنجاح!"
+   },
+   "action_type": {
+      "message": "نوع الإجراء"
+   },
+   "add_custom_actions_when_people_join_or_leave_your_group": {
+      "message": "أضف إجراءات مخصصة عندما ينضم الأشخاص إلى مجموعتك أو يغادرونها"
+   },
+   "add_new_webhook": {
+      "message": "إضافة Webhook"
+   },
+   "add_reply": {
+      "message": "إضافة رد"
+   },
+   "add_scheduled_action": {
+      "message": "جدولة مهمة جديدة"
+   },
+   "add_template": {
+      "message": "إضافة رسالة"
+   },
+   "admin_status": {
+      "message": "حالة الإدارة"
+   },
+   "affiliates": {
+      "message": "التسويق"
+   },
+   "ai_toolkit": {
+      "message": "أدوات الذكاء الإصطناعي"
+   },
+   "all": {
+      "message": "الكل"
+   },
+   "all_broadcasts": {
+      "message": "جميع قوائم الرسائل الجماعية"
+   },
+   "all_chats": {
+      "message": "جميع الدردشات"
+   },
+   "all_contacts": {
+      "message": "جميع جهات الإتصال"
+   },
+   "all_fields_are_required": {
+      "message": "جميع الحقول مطلوبة"
+   },
+   "all_groups": {
+      "message": "جميع المجموعات"
+   },
+   "all_labels": {
+      "message": "جميع التصنيفات"
+   },
+   "allow_only_on_specific_days": {
+      "message": "السماح بالرد التلقائي فقط في أيام محددة"
+   },
+   "allow_to_auto_reply_in_groups": {
+      "message": "السماح بالرد التلقائي بداخل المجموعات"
+   },
+   "api_key": {
+      "message": "مفتاح API"
+   },
+   "api_key_message": {
+      "description": "",
+      "message": "تسمح لك هذه الميزة بحفظ جهات الاتصال الجديدة مباشرة من WhatsApp Web إلى هاتفك. امسح رمز QR لتنزيل 'WA Web Plus Mobile Partner' إلى هاتفك، أو \u003Ca href='https://wawplus.com/manual/contacts-synchronizing' target='_blank'>اضغط هنا\u003C/a> لتنزيله مباشرة من موقعنا."
+   },
+   "appDesc": {
+      "message": "إضافة المزيد من الأدوات والخيارات إلى واتس أب ويب لمزيد من الخصوصية والفعالية."
+   },
+   "appName": {
+      "description": "",
+      "message": "WA Web Plus for WhatsApp™"
+   },
+   "archive_the_conversation_after_replying": {
+      "message": "أرشفة المحادثة بعد الرد"
+   },
+   "are_you_sure_destroy_group": {
+      "message": "هل أنت متأكد أنك تريد تدمير المجموعة المحددة؟ ستتم إزالة جميع الأعضاء."
+   },
+   "are_you_sure_stop_automated_messaging": {
+      "message": "هل أنت واثق من رغبتك بإيقاف عملية الإرسال التلقائية؟"
+   },
+   "are_you_sure_you_want_to_delete_the_selected_crm_integration": {
+      "message": "هل أنت متأكد من رغبتك بحذف الإرتباط مع هذا البرنامج؟"
+   },
+   "are_you_sure_you_want_to_delete_the_selected_group_action": {
+      "message": "هل أنت واثق من رغبتك بحذف الإجراء المحدد؟"
+   },
+   "are_you_sure_you_want_to_delete_the_selected_reply_template": {
+      "message": "هل أنت واثق من رغبتك بحذف قالب الرد المحدد؟"
+   },
+   "are_you_sure_you_want_to_delete_the_selected_scheduled_action": {
+      "message": "هل أنت متأكد أنك تريد حذف الإجراء المجدول المحدد؟"
+   },
+   "are_you_sure_you_want_to_delete_the_selected_template": {
+      "message": "هل أنت واثق بأنك تريد حذف نموذج الرسالة؟"
+   },
+   "are_you_sure_you_want_to_delete_the_selected_webhook": {
+      "message": "هل أنت واثق من رغبتك بحذف Webhook المحددة"
+   },
+   "are_you_sure_you_want_to_reset_the_password": {
+      "message": "هل أنت متأكد أنك تريد إعادة تعيين كلمة المرور؟ سيتم إرسال كلمة مرور جديدة إلى حساب WhatsApp الخاص بك."
+   },
+   "are_you_sure_you_want_to_run_the_selected_scheduled_action": {
+      "message": "هل أنت متأكد من أنك تريد تشغيل الإجراء المجدول المحدد؟"
+   },
+   "attach_file": {
+      "message": "أرفق ملف"
+   },
+   "automated_messaging_aborted_did_you_delete_template": {
+      "message": "تم إيقاف عملية الإرسال! حقا؟! هل حذفت قالب رسالة أثناء تشغيل الإرسال التلقائي؟!"
+   },
+   "automated_messaging_aborted_refresh_wa": {
+      "message": "Automated messaging process aborted due to an unknown error, please refresh WhatsApp Web window and try again."
+   },
+   "automated_messaging_beta": {
+      "message": "التشغيل الآلي (ميزة تجريبية)"
+   },
+   "automated_messaging_description_1": {
+      "message": "أدوات النشر: إرسال رسائل غير محدودة لعملائك من قائمة الاتصال الخاصة بك أو من ملف إكسل."
+   },
+   "automated_messaging_description_2": {
+      "message": "اشترك في WA Web Plus Premium للحصول على هذه الميزة والمزيد من الميزات الأخرى، \u003Ca href='https://wawplus.com' target='_blank'>اضغط هنا\u003C/a> لمعرفة المزيد."
+   },
+   "automated_messaging_description_3": {
+      "message": "الردود التلقائية: تعيين كلمات مفتاحية أو أسئلة متوقعة ليتم الرد عليها بشكل تلقائي."
+   },
+   "automated_messaging_description_4": {
+      "message": "عملية الشراء الآمنة تتم من خلال Google Pay، تستطيع إلغاء اشتراكك في أي وقت من خلال \u003Ca href='https://pay.google.com' target='_blank'>pay.google.com\u003C/a>."
+   },
+   "automated_messaging_description_5": {
+      "message": "تتيح هذه الميزة استخراج أرقام الهواتف من دردشاتك أو هاتفك حسب المجوعة أو التصنيف أو الدولة أو غيرها من الخيارات، إلى ملف Excel أو ملف نصي."
+   },
+   "automated_messaging_description_6": {
+      "message": "أدوات المجموعات: تنفيذ عمليات شاملة وسريعة على المجموعات بشكل جماعي."
+   },
+   "automated_messaging_description_7": {
+      "message": "الدمج مع برامج إدارة العملاء CRM: دمج ومزامنة واتساب مع برنامج إدارة العملاء المفضل لديك."
+   },
+   "automated_messaging_description_8": {
+      "message": "عدد حسابات WhatsApp المصرح لها باستخدام الأداة لكل اشتراك واحد."
+   },
+   "automated_messaging_description_9": {
+      "message": "الرسائل المجدولة: جدولة عمليات المراسلة التلقائية في تاريخ ووقت محددين."
+   },
+   "automated_messaging_done": {
+      "message": "Automated messaging process is done."
+   },
+   "automated_messaging_premium": {
+      "message": "التشغيل الآلي (تطوير مدفوع)"
+   },
+   "automated_replies": {
+      "message": "الردود التلقائية"
+   },
+   "automatic_labeling": {
+      "message": "التصنيف التلقائي"
+   },
+   "automatic_replies_list": {
+      "message": "قائمة الردود التلقائية"
+   },
+   "automatically_join_a_list_of_groups_in_bulk": {
+      "message": "الإنضمام الجماعي لقائمة محددة من المجموعات"
+   },
+   "automatically_label_chat_after_replying": {
+      "message": "تصنيف المحادثة تلقائياً بعد الرد"
+   },
+   "automatically_label_chats_when_receiving_this_message": {
+      "message": "التصنيف التلقائي للمحادثات عند استقبال هذه الرسالة"
+   },
+   "automation": {
+      "message": "التشغيل الآلي"
+   },
+   "automation_disabled_message": {
+      "message": "أعزائي المستخدمين، نعتذر لأن بعض الأدوات قيد الصيانة حالياً، سنقوم بإعادة تفعيلها قريباً فور الإنتهاء، شكراً!"
+   },
+   "automation_in_progress": {
+      "message": "عملية الإرسال الآلي قيد التشغيل"
+   },
+   "background_image_url": {
+      "message": "رابط صورة خلفية الدردشات"
+   },
+   "battery": {
+      "message": "البطارية: "
+   },
+   "beta": {
+      "message": "تجريبية"
+   },
+   "block_the_sender_instead_of_replying": {
+      "message": "حظر المرسل بدلاً من الرد"
+   },
+   "blueish_color": {
+      "message": "Blue-ish Color"
+   },
+   "blur_contacts_names": {
+      "message": "إخفاء أسماء جهات الإتصال"
+   },
+   "blur_contacts_photos": {
+      "message": "إخفاء صور جهات الإتصال"
+   },
+   "blur_conversation_messages": {
+      "message": "إخفاء رسائل الدردشات"
+   },
+   "blur_recent_messages": {
+      "message": "إخفاء الرسائل الجديدة"
+   },
+   "broadcast_name": {
+      "message": "عنوان قائمة الإتصال"
+   },
+   "broadcasting": {
+      "message": "أدوات النشر"
+   },
+   "broadcasts": {
+      "message": "قوائم الرسائل الجماعية"
+   },
+   "bulk_join_groups": {
+      "message": "الإنضمام الجماعي للمجموعات"
+   },
+   "bulk_messaging": {
+      "message": "مراسلة جماعية"
+   },
+   "business_tools": {
+      "message": "أدوات الأعمال"
+   },
+   "call_logs": {
+      "message": "سجل المكالمات"
+   },
+   "cancel": {
+      "message": "إلغاء"
+   },
+   "canceled": {
+      "message": "تم الإلغاء"
+   },
+   "card": {
+      "message": "بطاقة"
+   },
+   "card_link": {
+      "message": "رابط البطاقة"
+   },
+   "change": {
+      "message": "تغيير"
+   },
+   "charging": {
+      "message": "(جاري الشحن)"
+   },
+   "chat": {
+      "message": "محادثة"
+   },
+   "chats_statistics": {
+      "message": "إحصائيات المحادثات"
+   },
+   "check_this_link_to_know_more_about_this_feature": {
+      "message": "اضغط هنا لمعرفة المزيد أكثر حول هذه الميزة"
+   },
+   "checkout_this_extension": {
+      "message": "اطلع على هذه الإضافة المميزة لواتساب"
+   },
+   "choose_messages_you_want_to_send": {
+      "message": "اختر الرسائل التي تريد إرسالها"
+   },
+   "chrome_version": {
+      "message": "إصدار Chrome"
+   },
+   "click_to_chat_description": {
+      "message": "إنشاء روابط مخصصة للاتصال بك مباشرة عبر WhatsApp."
+   },
+   "click_to_chat_generator": {
+      "message": "رابط الدردشة المباشرة"
+   },
+   "click_to_chat_message": {
+      "message": "إليك رابط الدردشة المباشرة الخاص بك، يمكنك مشاركته مع أصدقائك أو عملائك برسالة معبأة مسبقاً، حيث ستتلقى هذه الرسالة عندما ينقرون على رابطك:"
+   },
+   "click_to_check_subscription_status": {
+      "message": "إضغط للإطلاع على حالة الإشتراك"
+   },
+   "click_to_save_private_notes": {
+      "message": "اضغط لحفظ الملاحظات الخاصة"
+   },
+   "clone": {
+      "message": "نسخ"
+   },
+   "clone_group": {
+      "message": "نسخ المجموعة"
+   },
+   "close": {
+      "message": "إغلاق"
+   },
+   "color_accent": {
+      "message": "Color Accent"
+   },
+   "coming_soon": {
+      "message": "قريباً"
+   },
+   "comma_separated": {
+      "message": "مفصولة بفواصل"
+   },
+   "compare_packages": {
+      "message": "مقارنة الباقات"
+   },
+   "completed": {
+      "message": "اكتملت"
+   },
+   "connection_lost__do_you_mind_refreshing_whatsapp": {
+      "message": "تعذر الاتصال بـ واتس أب، هل تمانع إعادة تحميل الصفحة من جديد؟"
+   },
+   "contact": {
+      "message": "اتصل بنا"
+   },
+   "contact_google_to_fix_it": {
+      "message": "الإتصال بـ Google لحلها"
+   },
+   "contact_info": {
+      "message": "معلومات جهة الإتصال"
+   },
+   "contact_name": {
+      "message": "الاسم"
+   },
+   "contact_name_field": {
+      "message": "حقل الإسم"
+   },
+   "contact_us": {
+      "message": "اتصل بنا"
+   },
+   "contacts": {
+      "message": "جهات الإتصال"
+   },
+   "contacts_activity_tracker": {
+      "message": "تتبع نشاطات المستخدمين"
+   },
+   "contacts_list": {
+      "message": "قائمة جهات الإتصال"
+   },
+   "contacts_sync_description": {
+      "message": "مزامنة جهات الإتصال: تسمح لك هذه الميزة بحفظ جهات الاتصال الجديدة مباشرة من WhatsApp Web إلى هاتفك."
+   },
+   "contacts_synchronizing": {
+      "message": "مزامنة جهات الإتصال"
+   },
+   "could_not_import_crm_lists": {
+      "message": "فشل استيراد قوائم جهات الإتصال!"
+   },
+   "countries": {
+      "message": "الدول"
+   },
+   "country": {
+      "message": "الدولة"
+   },
+   "crm_integration": {
+      "message": "الدمج مع برامج إدارة العملاء CRM"
+   },
+   "crm_integration_deleted": {
+      "message": "تم حذف الربط مع البرنامج"
+   },
+   "crm_integration_saved": {
+      "message": "تم حفظ الربط مع البرنامج."
+   },
+   "crm_integrations_list": {
+      "message": "قائمة برامج إدارة العملاء"
+   },
+   "crm_software": {
+      "message": "نوع برنامج إدارة العملاء"
+   },
+   "currency": {
+      "message": "العملة"
+   },
+   "custom_background_image": {
+      "message": "تخصيص صورة خلفية الدردشات"
+   },
+   "custom_background_image_help": {
+      "message": "هذه الميزة لا تعمل في حال تخصيص لون للمحادثات"
+   },
+   "customization": {
+      "message": "التخصيص"
+   },
+   "dark_color": {
+      "message": "Dark Color"
+   },
+   "darker_color": {
+      "message": "Darker Color"
+   },
+   "date_time": {
+      "message": "التاريخ/الوقت"
+   },
+   "days": {
+      "message": "أيام"
+   },
+   "default_reply": {
+      "message": "الرد الإفتراضي"
+   },
+   "default_template": {
+      "message": "الرسالة الافتراضية"
+   },
+   "delete": {
+      "message": "حذف"
+   },
+   "delete_action": {
+      "message": "حذف المهمة"
+   },
+   "delete_all": {
+      "message": "حذف الكل"
+   },
+   "delete_reply": {
+      "message": "حذف الرد"
+   },
+   "delete_template": {
+      "message": "حذف القالب"
+   },
+   "deleted_messages": {
+      "message": "الرسائل المحذوفة"
+   },
+   "deleted_messages_limit_reached": {
+      "message": "لقد قمت باستعادة الحد الأقصى من الرسائل المحذوفة."
+   },
+   "deleted_messages_restored": {
+      "message": "تم استعادة الرسائل المحذوفة"
+   },
+   "destroy_group": {
+      "message": "تدمير المجموعة"
+   },
+   "device": {
+      "message": "الجهاز"
+   },
+   "did_you_like_the_app": {
+      "message": "هل أعجبك التطبيق؟"
+   },
+   "disable_read_receipts": {
+      "message": "تعطيل تبليغات قراءة الرسائل"
+   },
+   "disable_read_receipts_blue_ticks": {
+      "message": "تعطيل تبليغات قراءة الرسائل (العلامة الزرقاء)"
+   },
+   "disable_read_receipts_description": {
+      "message": "تسمح لك هذه الميزة بتعطيل تبليغات القراءة (العلامات الزرقاء المزدوجة) التي تبلغ المرسل عن بقراءتك لرسائله."
+   },
+   "disabled": {
+      "message": "معطلة"
+   },
+   "disabled_reply": {
+      "message": "معطّل"
+   },
+   "disclaimer": {
+      "message": "إخلاء مسؤولية"
+   },
+   "disclaimer_text": {
+      "message": "هذه الميزة غير مخصصة لإغراق الأشخاص بالرسائل، الهدف منها هو إرسال المعايدات والدعوات والترحيبات للأصدقاء والعائلة والأشخاص الذين تعرفهم فقط، من فضلك استخدم الميزة بمسؤولية تامة.\u003Cp>إذا قررت إساءة استخدام هذه الميزة فقد تُعرض حسابك على واتس أب \u003Cb>للحظر النهائي\u003C/b> وتصبح غير قادر على استخدامه مجدداً."
+   },
+   "do_you_want_more": {
+      "message": "هل تريد المزيد؟"
+   },
+   "donate": {
+      "message": "تبرّع"
+   },
+   "dont_know_the_code": {
+      "message": "لا تعرف الرمز؟"
+   },
+   "dont_refresh": {
+      "message": "لا تحدث الصفحة"
+   },
+   "dont_reply_in_active_chats": {
+      "message": "إلغاء الرد التلقائي في المحادثة النشطة"
+   },
+   "duplicates_finder": {
+      "message": "الأعضاء المكررين"
+   },
+   "dynamic_variables": {
+      "message": "تنسيقات متغيرة"
+   },
+   "edit": {
+      "message": "تعديل"
+   },
+   "edit_reply": {
+      "message": "تعديل الرد"
+   },
+   "edit_template": {
+      "message": "تعديل القالب"
+   },
+   "enable_contact_info_icon": {
+      "message": "تفعيل أيقونة معلومات جهة الإتصال"
+   },
+   "enable_contact_status": {
+      "message": "تفعيل حالة جهة الإتصال"
+   },
+   "enable_contact_status_help": {
+      "message": "إظهار حالة جهة الإتصال بجانب إسمه"
+   },
+   "enable_full_screen_on_large_screens": {
+      "message": "تفعيل وضعية ملء الشاشة على الشاشات الكبيرة"
+   },
+   "enable_like_button": {
+      "message": "تفعيل زر الإعجاب"
+   },
+   "enable_like_button_help": {
+      "message": "تفعيل زر إعجاب كما في Facebook Messenger"
+   },
+   "enable_lock_screen": {
+      "message": "تفعيل قفل الشاشة"
+   },
+   "enable_message_reactions": {
+      "message": "تفعيل التفاعلات على الرسائل"
+   },
+   "enable_night_mode": {
+      "message": "تشغيل الوضع الليلي"
+   },
+   "enable_night_mode_help": {
+      "message": "Thanks to Vednoc @ 'onyx' project"
+   },
+   "enable_start_conversation_with_non_contacts": {
+      "message": "تفعيل إمكانية بدء المحادثات مع أشخاص خارج جهات الإتصال"
+   },
+   "enable_start_conversation_with_non_contacts_help": {
+      "message": "إضافة زر جديد لبدء المحادثات مع أشخاص خارج جهات الإتصال"
+   },
+   "enable_status_download_button": {
+      "message": "تفعيل زر تحميل الحالة"
+   },
+   "enhancements": {
+      "message": "التحسينات"
+   },
+   "enter_discount_coupon_code": {
+      "message": "أدخل كود التخفيض:"
+   },
+   "enter_license_key_text": {
+      "message": "يرجى إدخال مفتاح الترخيص الخاص بك أدناه، مفاتيح الترخيص تختلف عن أرقام طلبات Google."
+   },
+   "enter_new_group_name": {
+      "message": "أدخل اسم المجموعة الجديدة"
+   },
+   "error_connecting_to_crm_wrong_api_key": {
+      "message": "خطأ أثناء الاتصال ببرنامج إدارة العملاء، ربما تستخدم مفتاح API خاطئ."
+   },
+   "error_please_refresh_the_page": {
+      "message": "خطأ، من فضلك قم بتحديث الصفحة"
+   },
+   "exclude_saved_contacts": {
+      "message": "استثناء جهات الإتصال المحفوظة"
+   },
+   "expected_keywords": {
+      "message": "الكلمات المفتاحية المتوقعة"
+   },
+   "expiration": {
+      "message": "تاريخ الإنتهاء"
+   },
+   "export": {
+      "message": "التصدير"
+   },
+   "export_all_chats_contacts_list": {
+      "message": "تصدير جهات إتصال الدردشات"
+   },
+   "export_all_contacts_list": {
+      "message": "تصدير جميع قوائم الإتصال"
+   },
+   "export_all_groups_list": {
+      "message": "تصدير قائمة جميع المجموعات"
+   },
+   "export_contacts_from_a_specific_country": {
+      "message": "تصدير جهات الإتصال من دولة معينة"
+   },
+   "export_contacts_from_a_specific_group": {
+      "message": "تصدير جهات الإتصال ضمن مجموعة معينة"
+   },
+   "export_contacts_from_specific_broadcasts": {
+      "message": "تصدير جهات الإتصال ضمن قوائم الإتصال الجماعية"
+   },
+   "export_contacts_from_specific_countries": {
+      "message": "تصدير جهات الإتصال من دول معينة"
+   },
+   "export_contacts_from_specific_groups": {
+      "message": "تصدير جهات الإتصال ضمن مجموعات معينة"
+   },
+   "export_contacts_from_specific_labels": {
+      "message": "تصدير جهات الإتصال ضمن تصنيفات معينة"
+   },
+   "export_contacts_list": {
+      "message": "تصدير قوائم جهات الإتصال"
+   },
+   "export_contacts_with_a_specific_label": {
+      "message": "تصدير جهات الإتصال ضمن تصنيف معين"
+   },
+   "export_import_all_settings": {
+      "message": "استيراد/تصدير جميع الإعدادات"
+   },
+   "export_import_note": {
+      "message": "ملاحظة: سيؤدي استيراد عناصر جديدة إلى محو العناصر الموجودة."
+   },
+   "export_now": {
+      "message": "تصدير الآن"
+   },
+   "export_only_business_accounts": {
+      "message": "تصدير جهات اتصال الأعمال فقط"
+   },
+   "export_only_non_phone_contacts": {
+      "message": "تصدير جهات الإتصال غير المحفوظة في الهاتف"
+   },
+   "export_only_personal_accounts": {
+      "message": "تصدير جهات اتصال الأفراد فقط"
+   },
+   "export_only_phone_contacts": {
+      "message": "تصدير جهات اتصال الهاتف فقط"
+   },
+   "exported_successfully": {
+      "message": "تم الحفظ بنجاح."
+   },
+   "exporting_tools": {
+      "message": "أدوات التصدير"
+   },
+   "extra_parameter_field": {
+      "message": "حقل المعلومات الإضافية"
+   },
+   "failed_to_connect_to_whatsapp_text": {
+      "message": "مع الأسف! يبدو أن WA Web Plus لم يتمكن من التواصل بشكل صحيح هذه المرة مع WhatsApp Web وقد لا تعمل بعض الميزات بشكل صحيح. انقر فوق إعادة التحميل لتحديث الصفحة والمحاولة مرة أخرى، أو انقر إلغاء لاستخدام WhatsApp Web بدون WA Web Plus. إذا استمرت المشكلة، يرجى \u003Ca href='mailto:support@wawplus.com?subject=WA Web Plus غير قادر على التواصل مع WhatsApp Web' target='_blank'>إبلاغ المطورين\u003C/a> لإصلاحها."
+   },
+   "failed_to_connect_to_whatsapp_title": {
+      "message": "تنبيه WA Web Plus"
+   },
+   "failed_to_join_groups": {
+      "message": "مجموعات فشل الإنضمام إليها"
+   },
+   "feature_not_available_consider_upgrading": {
+      "message": "هذه الميزة غير متاحة لاشتراكك، يرجى الترقية إلى باقة أخرى."
+   },
+   "feature_requires_upgrading": {
+      "message": "الميزة تتطلب ترقية"
+   },
+   "features": {
+      "message": "الميزات"
+   },
+   "feedback": {
+      "message": "ملاحظات"
+   },
+   "file": {
+      "message": "ملف"
+   },
+   "file_format": {
+      "message": "نوع الملف"
+   },
+   "find_duplicated_users_across_all_the_groups": {
+      "message": "ابحث عن الأعضاء المكررين في جميع مجموعاتك"
+   },
+   "firebase_settings": {
+      "message": "Firebase إعدادات"
+   },
+   "firefox_version": {
+      "message": "إصدار Firefox"
+   },
+   "fix_code_bugs_and_improve_stability": {
+      "message": "إصلاح الأخطاء وتحسين الأداء"
+   },
+   "forgot_password": {
+      "message": "نسيت كلمة المرور"
+   },
+   "freeze_chats_list_on_message_submission": {
+      "message": "تثبيت شريط قائمة الدردشات عند إرسال رسائل جديدة"
+   },
+   "fri": {
+      "message": "جمعة"
+   },
+   "from": {
+      "message": "من"
+   },
+   "get_the_offer": {
+      "message": "احصل على العرض"
+   },
+   "greenish_color": {
+      "message": "Green-ish Color"
+   },
+   "group_action_deleted": {
+      "message": "تم حذف الإجراء"
+   },
+   "group_action_saved": {
+      "message": "تم حفظ الإجراء"
+   },
+   "group_chats": {
+      "message": "دردشات المجموعات"
+   },
+   "group_cloned_successfully": {
+      "message": "تم نسخ المجموعة بنجاح!"
+   },
+   "group_description": {
+      "message": "وصف المجموعة"
+   },
+   "group_destroyed_successfully": {
+      "message": "تم تدمير المجموعة بنجاح!"
+   },
+   "group_joining": {
+      "message": "الإنضمام للمجموعة"
+   },
+   "group_leaving": {
+      "message": "مغادرة المجموعة"
+   },
+   "group_name": {
+      "message": "اسم المجموعة"
+   },
+   "groups": {
+      "message": "المجموعات"
+   },
+   "groups_actions_list": {
+      "message": "قائمة إجراءات المجموعات"
+   },
+   "groups_tools": {
+      "message": "أدوات المجموعات"
+   },
+   "have_discount_coupon": {
+      "message": "لديك كود تخفيض؟"
+   },
+   "hello": {
+      "message": "مرحباً"
+   },
+   "hi_there_iam_using_waw": {
+      "message": "مرحباً! أنا أستعمل WA Web Plus."
+   },
+   "hide_online_status_invisible_mode": {
+      "message": "إخفاء حالة الإتصال (الوضع الخفي)"
+   },
+   "hide_typing_status": {
+      "message": "إخفاء حالة جار الكتابة"
+   },
+   "highlight_online_contacts": {
+      "message": "تمييز جهات الإتصال المتصلة"
+   },
+   "highlight_online_contacts_help": {
+      "message": "تعليم جهات الإتصال المتصلة حالياً بدائرة خضراء"
+   },
+   "how_to_get_key": {
+      "message": "كيف أحصل على المفتاح؟"
+   },
+   "how_to_setup_webhook": {
+      "message": "كيف أقوم بإعداد Webhook؟"
+   },
+   "how_to_use": {
+      "message": "طريقة الإستخدام"
+   },
+   "i_am_sure_some_numbers_are_correct_why_did_they_get_removed": {
+      "message": "أنا متأكد من أن بعض الأرقام صحيحة، لماذا تمت إزالتها؟"
+   },
+   "i_didnt_like_it": {
+      "message": "لم يعجبني"
+   },
+   "i_have_a_license_key": {
+      "message": "لدي مفتاح ترخيص."
+   },
+   "i_love_it": {
+      "message": "أحببته بالطبع!"
+   },
+   "i_understand_start": {
+      "message": "أفهم ذلك، إبدأ الآن"
+   },
+   "icons_color": {
+      "message": "Icons Color"
+   },
+   "if_you_have_any_suggestions_please_send_it_to": {
+      "message": "إذا كان لديك أي اقتراحات، يرجى إرسالها إلى"
+   },
+   "if_you_like_leave_review_and_share": {
+      "message": "إذا أعجبك التطبيق بالميزات الجديدة، من فضلك ساعد الآخرين على معرفة ذلك من خلال تركك لتقييم جيد على صفحة التطبيق."
+   },
+   "if_you_want_to_setup_a_smart_reply_with_this_message_do_not_use_commas": {
+      "message": "إذا كنت ترغب في إعداد رد ذكي لهذه الرسالة، فلا تستخدم الفواصل."
+   },
+   "image": {
+      "message": "صورة"
+   },
+   "image_url": {
+      "message": "رابط الصورة"
+   },
+   "immediately": {
+      "message": "الرد مباشرة"
+   },
+   "import": {
+      "message": "استيراد"
+   },
+   "import_export": {
+      "message": "استيراد/تصدير"
+   },
+   "import_from_crm": {
+      "message": "استيراد من برنامج إدارة العملاء"
+   },
+   "import_from_list": {
+      "message": "استيراد من قائمة جاهزة"
+   },
+   "import_targets_from_excel_sheet": {
+      "message": "استيراد جهات الإتصال من ملف Excel"
+   },
+   "import_targets_text": {
+      "message": "حدد ملف XLSX أو CSV لجهات الاتصال الخاصة بك، يجب أن يحتوي الملف على \u003Ccode>رقم الهاتف\u003C/code> بالتنسيق الدولي بدون أية أصفار بادئة أو علامات + أو شرطات. يمكنك استخدام أعمدة إضافية مثل \u003Ccode>اسم جهة الإتصال\u003C/code> ومتغير \u003Ccode>حقل المعلومات الإضافية\u003C/code> الذي يمكن تخصيصه في قالب رسالتك، \u003Ca href='https://wawplus.com/en/manual/importing-targets-from-an-excel-sheet' target ='_blank'>انقر هنا لمعرفة المزيد\u003C/a>."
+   },
+   "important_notes": {
+      "message": "ملاحظات هامة"
+   },
+   "incoming": {
+      "message": "واردة"
+   },
+   "input_is_not_number": {
+      "message": "القيمة المدخلة ليست رقماً!"
+   },
+   "insert_your_license_key": {
+      "message": "أدخل مفتاح الشهادة"
+   },
+   "integrate_new_crm": {
+      "message": "الربط مع برنامج جديد"
+   },
+   "invalid_and_removed": {
+      "message": "غير صالحة وتمت إزالتها"
+   },
+   "invite_link": {
+      "message": "رابط الإنضمام"
+   },
+   "is_now_online": {
+      "message": "متواجد الآن!"
+   },
+   "items_exported_successfully": {
+      "message": "تم تصدير العناصر بنجاح"
+   },
+   "items_imported_successfully": {
+      "message": "تم استيراد العناصر بنجاح"
+   },
+   "its_free_now": {
+      "message": "أصبحت مجانية الآن"
+   },
+   "its_ok_refresh": {
+      "message": "لا بأس، قم بالتحديث"
+   },
+   "join": {
+      "message": "الإنضمام"
+   },
+   "joining": {
+      "message": "الإنضمام إلى"
+   },
+   "keep_contact_info_open": {
+      "message": "إبقاء معلومات جهة الإتصال مفتوحة"
+   },
+   "keep_contact_info_open_help": {
+      "message": "إبقاء بيانات جهة الإتصال الجانبية مفتوحة دائماً"
+   },
+   "label_name": {
+      "message": "اسم التصنيف"
+   },
+   "labeler_1": {
+      "message": "RGVhciB1c2VyLCB5b3UgcHJvYmFibHkgaGF2ZSBiZWVuIHNjYW1tZWQgYnkgYSBoYWNrZWQgdmVyc2lvbiBvZiAiV0EgV2ViIFBsdXMiIGNocm9tZSBleHRlbnNpb24sIGl0IHNlZW1zIHRoYXQgdGhlIG93bmVycyBvZiB0aGUgZXh0ZW5zaW9uICJRU2VuZGVyIiBoYXZlIHNjYW1tZWQgeW91IHRvIGJ1eSBhbiBpbGxlZ2FsIGhhY2tlZC9jbG9uZWQgdmVyc2lvbiBvZiB0aGUgZ2VudWluZSBDaHJvbWUgZXh0ZW5zaW9uICJXQSBXZWIgUGx1cyIuCgkJCTxicj48YnI+CgkJCVdlIGJlbGlldmUgdGhhdCB0aG9zZSBhdHRhY2tlcnMgaGF2ZSB2aW9sYXRlZCB5b3VyIGFjY291bnQgcHJpdmF0ZSBpbmZvcm1hdGlvbiwgZm9yIHlvdXIgYWNjb3VudCBhbmQgaW5mb3JtYXRpb24gc2VjdXJpdHkgd2UgaGF2ZSBkaXNhYmxlZCB5b3VyIGFjY2VzcyB0byBXaGF0c0FwcCBXZWIgYW5kIGxvZ2dlZCB5b3Ugb3V0IG9mIHlvdXIgYWNjb3VudC4gV2UgZW5jb3VyYWdlIHlvdSB0byByZW1vdmUgIlFTZW5kZXIiIGltbWVkaWF0ZWx5IGZyb20geW91ciBDaHJvbWUgZXh0ZW5zaW9ucyBsaXN0IGFuZCB1c2UgdGhlIG9mZmljaWFsIGdlbnVpbmUgdmVyc2lvbiBvZiAiV0EgV2ViIFBsdXMiLiBXZSBhbHNvIGFkdmljZSB0byBhc2sgdGhlIHNjYW1tZXJzIHRvIHJlZnVuZCB5b3VyIG1vbmV5IGJhY2ssIHdlIHdpbGwgY3JlZGl0IGFsbCB0aGUgdmljdGltcyBvZiB0aGlzIHNjYW0gd2l0aCBhIGxpZmV0aW1lIGFjY2VzcyB0byBhbGwgV0EgV2ViIFBsdXMgZmVhdHVyZXMgaWYgdGhleSBoZWxwIHVzIHJlcG9ydCB0aGUgaGFja2VycyB3ZWJzaXRlIHRvIEdvb2dsZSBzbyB0aGV5IHdvbid0IGJlIGFibGUgdG8gc2NhbSBuZXcgdXNlcnMgbGlrZSB5b3UgYW55bW9yZS4KCQkJPGJyPjxicj4KCQkJPGEgaHJlZj0iaHR0cHM6Ly9zdXBwb3J0Lmdvb2dsZS5jb20vY2hyb21lX3dlYnN0b3JlL2Fuc3dlci8yNjY0NzY5IiB0YXJnZXQ9Il9ibGFuayI+Q2xpY2sgaGVyZTwvYT4gdG8gbGVhcm4gaG93IHRvIHJlbW92ZSBhIENocm9tZSBleHRlbnNpb24uPGJyPgoJCQk8YSBocmVmPSJodHRwczovL3dhd3BsdXMuY29tIiB0YXJnZXQ9Il9ibGFuayI+Q2xpY2sgaGVyZTwvYT4gdG8gdmlzaXQgV0EgV2ViIFBsdXMgb2ZmaWNpYWwgd2Vic2l0ZS48YnI+CgkJCTxhIGhyZWY9Imh0dHBzOi8vY2hyb21lLmdvb2dsZS5jb20vd2Vic3RvcmUvZGV0YWlsL3dhLXdlYi1wbHVzLWZvci13aGF0c2FwcC9la2Nna2VqY2pkY21vbmZwbW5sam9iZW1jYnBua2FtaCIgdGFyZ2V0PSJfYmxhbmsiPkNsaWNrIGhlcmU8L2E+IHRvIHZpc2l0IFdBIFdlYiBQbHVzIG9mZmljaWFsIENocm9tZSBXZWIgU3RvcmUgcGFnZS48YnI+CgkJCTxhIGhyZWY9Imh0dHBzOi8vd2F3cGx1cy5jb20vcmVwb3J0LXNjYW0iIHRhcmdldD0iX2JsYW5rIj5DbGljayBoZXJlPC9hPiB0byBoZWxwIHVzIHJlcG9ydCB0aGUgc2NhbW1lcnMgd2Vic2l0ZSwgYW5kIGdldCBhIGxpZmV0aW1lIGFjY2VzcyB0byBhbGwgV0EgV2ViIFBsdXMgZmVhdHVyZXMgYW5kIHVwZGF0ZXMu"
+   },
+   "labeler_2": {
+      "message": "V0FSTklORyA8c3ZnIHN0eWxlPSJoZWlnaHQ6MTVweDtmbG9hdDpyaWdodCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2aWV3Qm94PSIwIDAgNDkxLjY4IDg2LjIxIj48ZGVmcz48cmFkaWFsR3JhZGllbnQgaWQ9InJhZGlhbC1ncmFkaWVudCIgY3g9Ijc1LjUzIiBjeT0iNDMuMTEiIHI9IjYxLjQ5IiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSIjM2ViNDU3Ii8+PHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjMTE3ZDUzIiBzdG9wLW9wYWNpdHk9Ii43NSIvPjwvcmFkaWFsR3JhZGllbnQ+PC9kZWZzPjxwYXRoIGZpbGw9IiMyZDJkMmQiIGQ9Ik0xNjguNTMgMTcuOGEzLjE3IDMuMTcgMCAwMS4zMi0yLjY4IDMgMyAwIDAxMi41NS0xaDRhMy40MiAzLjQyIDAgMDEzLjYgMi45Nmw4LjIxIDM2LjJjLjE2LjguMjkgMS41Ni40IDIuMjhzLjIxIDEuMzcuMzIgMS45NWExMC4zNiAxMC4zNiAwIDAxLjE2IDEuNzZoLjE2Yy4wNS0uNTQuMTMtMS4xMi4yNC0xLjc2YTMxLjUyIDMxLjUyIDAgMDEuOTUtNC4yM2w5LjQtMzYuMjhhMy41NCAzLjU0IDAgMDEzLjc0LTIuODdoMi43MmEzLjMxIDMuMzEgMCAwMTMuNTggMi44N2w5LjM0IDM2LjI4Yy4yMS44Ni4zOSAxLjYzLjU1IDIuMzJzLjI5IDEuMzMuNCAxLjkxLjE5IDEuMjIuMjQgMS43NmguMTZjLjA1LS41NC4xMy0xLjEyLjI0LTEuNzZzLjItMS4yMy4yOC0xLjk1YTE2IDE2IDAgMDEuNDQtMi4yOGw4LjY5LTM2LjJhMy4zMyAzLjMzIDAgMDEzLjY3LTIuOTVoMy43NWEzLjA3IDMuMDcgMCAwMTIuNTkgMSAzLjA5IDMuMDkgMCAwMS4zNiAyLjY4bC0xMyA1MC4xOWEzLjU0IDMuNTQgMCAwMS0zLjc1IDIuNzloLTUuNjZhMy40NCAzLjQ0IDAgMDEtMy42Ny0yLjg3bC04LTMwLjYzYy0uNDgtMS44Ni0uODYtMy41Ni0xLjEyLTUuMS0uMTYtLjgtLjMtMS41Ny0uNC0yLjMxaC0uMjRjLS4xMS43NC0uMjQgMS41MS0uNCAyLjMxcy0uMjUgMS41Ni0uNDQgMi40My0uMzggMS43Ny0uNTkgMi42N2wtOC4xNCAzMC42M2EzLjQ0IDMuNDQgMCAwMS0zLjY3IDIuODdoLTUuNzRhMy40NCAzLjQ0IDAgMDEtMy42Ny0yLjg3ek0yNDAuODYgNTAuNDFhMjMuNjcgMjMuNjcgMCAwMTEuNTItOC42MSAyMC4yIDIwLjIgMCAwMTQuMjMtNi43NCAxOC41IDE4LjUgMCAwMTYuNTQtNC4zOCAyMiAyMiAwIDAxOC4zNy0xLjU2IDE5LjA2IDE5LjA2IDAgMDE3LjcgMS40OCAxNi4wOSAxNi4wOSAwIDAxNS42NiA0IDE3LjU3IDE3LjU3IDAgMDEzLjQ3IDYuMTQgMjQuNjEgMjQuNjEgMCAwMTEuMTkgNy43NCAzLjQ3IDMuNDcgMCAwMS0zLjU0IDMuNDVoLTI0LjhhMTIuNzkgMTIuNzkgMCAwMDEuMzIgNC44NiAxMS4xNSAxMS4xNSAwIDAwNi40OCA1LjU5IDEzLjgzIDEzLjgzIDAgMDA0LjQyLjcxIDE0LjEyIDE0LjEyIDAgMDA1LjA3LS44NyAyMy42OSAyMy42OSAwIDAwMy43MS0xLjc2IDQuMDcgNC4wNyAwIDAxMi42LS40NiAzIDMgMCAwMTEuODcgMS42bDEgMS41OXExLjUxIDIuODgtMS4xMiA0LjQ3YTMzLjM3IDMzLjM3IDAgMDEtNS41IDIuNjcgMjIuMzggMjIuMzggMCAwMS04LjI5IDEuNCAyMy4xNCAyMy4xNCAwIDAxLTkuMS0xLjcyIDIwLjcxIDIwLjcxIDAgMDEtNi45LTQuNjIgMjAuMjQgMjAuMjQgMCAwMS00LjM0LTYuNzggMjIuMjUgMjIuMjUgMCAwMS0xLjU2LTguMnptMjguNjQtNC42MmE5Ljc1IDkuNzUgMCAwMC0yLjQ0LTYuNjYgNy42NyA3LjY3IDAgMDAtNS43OC0yLjM1IDkgOSAwIDAwLTYuNSAyLjQ3IDExLjUyIDExLjUyIDAgMDAtMy4zMSA2LjU0ek0yODUuMzYgMTcuNDhjMC0yLjI0IDEuMTItMy4zNSAzLjM1LTMuMzVoMy40M2MyLjI0IDAgMy4zNSAxLjExIDMuMzUgMy4zNXYxNi4xNWE4LjEyIDguMTIgMCAwMS0uMTIgMS4wNyA3LjU1IDcuNTUgMCAwMC0uMDggMWguMTZhMTMgMTMgMCAwMTIuODctMy4yNyAxOCAxOCAwIDAxMy44Ny0yLjIzIDE0LjEyIDE0LjEyIDAgMDE1LjctMSAxNy4wOSAxNy4wOSAwIDAxNy4zOCAxLjU2IDE2LjI4IDE2LjI4IDAgMDE1LjYyIDQuMjQgMTkuODEgMTkuODEgMCAwMTMuNjMgNi43IDI3LjY4IDI3LjY4IDAgMDExLjI4IDguNjEgMjUuNjIgMjUuNjIgMCAwMS0xLjQ0IDguODIgMjAuNTcgMjAuNTcgMCAwMS0zLjkxIDYuNzQgMTYuODEgMTYuODEgMCAwMS01LjkgNC4zIDE3LjkyIDE3LjkyIDAgMDEtNy4zMyAxLjUyIDE0LjI2IDE0LjI2IDAgMDEtNS44Mi0xIDE0LjY4IDE0LjY4IDAgMDEtMy44My0yLjM5IDEwLjg3IDEwLjg3IDAgMDEtMi43OS0zLjQzaC0uMTZhMS44IDEuOCAwIDAwLjA4LjQ4IDQuMDcgNC4wNyAwIDAwMCAuNTZ2MS45OWEyLjY5IDIuNjkgMCAwMS0uODQgMi4xMSAzLjYyIDMuNjIgMCAwMS0yLjUxLjc2aC0yLjcycS0zLjM0IDAtMy4zNS0zLjM1em05LjgxIDMzYTE3Ljk0IDE3Ljk0IDAgMDAuNjQgNC43NyAxMi41OSAxMi41OSAwIDAwMS45MiA0LjA2IDkuODkgOS44OSAwIDAwMy4xNSAyLjgyIDguNDkgOC40OSAwIDAwNC4zNCAxLjA3IDkuNzMgOS43MyAwIDAwNC0uODMgOS4zMyA5LjMzIDAgMDAzLjI3LTIuNDMgMTEuNDcgMTEuNDcgMCAwMDIuMjItMy45NCAxNi4zOSAxNi4zOSAwIDAwLjgtNS4zNyAxNi43IDE2LjcgMCAwMC0uNzYtNS4yIDEyLjYyIDEyLjYyIDAgMDAtMi4wNy00IDkuMjkgOS4yOSAwIDAwLTMuMTUtMi41OCA5IDkgMCAwMC00LjA3LS45MiAxMC4wNiAxMC4wNiAwIDAwLTMuODMuNzYgOS4yNCA5LjI0IDAgMDAtMy4yNyAyLjMgMTIgMTIgMCAwMC0yLjMxIDMuOSAxNi4xIDE2LjEgMCAwMC0uODggNS41NnpNMzUxLjg4IDE3LjQ4YzAtMi4yNCAxLjA5LTMuMzUgMy4yNy0zLjM1aDE4LjVhMTkuNzUgMTkuNzUgMCAwMTcuMyAxLjMxIDE2LjQ1IDE2LjQ1IDAgMDE1LjcgMy43NSAxNi44NyAxNi44NyAwIDAxMy43MSA1LjgxIDIwLjY1IDIwLjY1IDAgMDExLjMxIDcuNTQgMjAuOTQgMjAuOTQgMCAwMS0xLjMxIDcuNTggMTcuMzEgMTcuMzEgMCAwMS0zLjcxIDUuOSAxNi40OCAxNi40OCAwIDAxLTUuNyAzLjgyIDE5IDE5IDAgMDEtNy4zIDEuMzZoLTExLjU2djE2LjJxMCAzLjM0LTMuMjcgMy4zNWgtMy42N3EtMy4yNyAwLTMuMjctMy4zNXptMTkuODYgMjQuOGE5LjEyIDkuMTIgMCAwMDctMi42NCAxMCAxMCAwIDAwMi40OC03LjEzIDkuODcgOS44NyAwIDAwLTIuNDMtNyA5IDkgMCAwMC02LjktMi42aC05LjgxdjE5LjM3ek0zOTYuOTQgMTcuNDhjMC0yLjI0IDEuMDktMy4zNSAzLjI3LTMuMzVoMy41MWMyLjE3IDAgMy4yNyAxLjExIDMuMjcgMy4zNXYzOS43OWE4LjQ0IDguNDQgMCAwMC4yOCAyLjQzIDMuNDkgMy40OSAwIDAwLjc1IDEuNDQgMi41OCAyLjU4IDAgMDAxIC43MiA1LjU3IDUuNTcgMCAwMDEuMTIuMjhBMy4wOSAzLjA5IDAgMDE0MTIgNjNhMi44MSAyLjgxIDAgMDEuNjggMnYyLjcxYTMuODYgMy44NiAwIDAxLS43NiAyLjUxIDMuMjEgMy4yMSAwIDAxLTIuNTkuOTIgMjIuOTEgMjIuOTEgMCAwMS00LjIzLS40IDkuMjQgOS4yNCAwIDAxLTctNS43IDE3LjQ3IDE3LjQ3IDAgMDEtMS4xNS03ek00MTcuMTkgMzMuNDNjMC0yLjI0IDEuMTItMy4zNSAzLjM1LTMuMzVINDI0YzIuMjQgMCAzLjM1IDEuMTEgMy4zNSAzLjM1djIwLjczYTEyLjI2IDEyLjI2IDAgMDAxLjI4IDZxMS4yNyAyLjI4IDUgMi4yOGExMC4yNyAxMC4yNyAwIDAwOC40NS00LjE1IDE0LjI1IDE0LjI1IDAgMDAyLjItNC4zOSAxNy42OSAxNy42OSAwIDAwLjc2LTUuMThWMzMuNDNjMC0yLjI0IDEuMTEtMy4zNSAzLjM1LTMuMzVoMy40M2MyLjIzIDAgMy4zNSAxLjExIDMuMzUgMy4zNXYzNHEwIDMuMzQtMy4zNSAzLjM1aC0zLjEyYy0yLjE4IDAtMy4yNi0xLjEyLTMuMjYtMy4zNXYtMy4xNGExLjkxIDEuOTEgMCAwMS4wNy0uNTYgMS42IDEuNiAwIDAxLjA5LS41NmgtLjE2YTEyLjY1IDEyLjY1IDAgMDEtMiAzLjEyIDE1LjE3IDE1LjE3IDAgMDEtMy4yIDIuNzEgMTguNDUgMTguNDUgMCAwMS00LjA3IDIgMTQuODcgMTQuODcgMCAwMS00Ljg2Ljc2cS02LjU0IDAtMTAuMzMtMy41OXQtMy43OS0xMS44OHpNNDYyLjY1IDY3LjU2YTIuNzUgMi43NSAwIDAxLTEuNTEtMiAzLjggMy44IDAgMDEuNzEtMi41NmwxLTEuNDNhMyAzIDAgMDExLjk1LTEuNDQgNC40NSA0LjQ1IDAgMDEyLjYuNjRjLjk1LjUzIDIuMTkgMS4xMyAzLjcgMS44YTEzLjQ0IDEzLjQ0IDAgMDA1LjM5IDEgNi44NyA2Ljg3IDAgMDA0LjE0LTEuMTEgMy41OSAzLjU5IDAgMDAxLjUyLTMgMy4wOCAzLjA4IDAgMDAtMS40OC0yLjY4IDE3Ljg2IDE3Ljg2IDAgMDAtMy43NC0xLjgzTDQ3MiA1My4xM2EyNS41NSAyNS41NSAwIDAxLTQuODYtMi40IDEyLjE2IDEyLjE2IDAgMDEtMy43NS0zLjY3IDEwLjE1IDEwLjE1IDAgMDEtMS40OC01Ljc0IDEwLjg4IDEwLjg4IDAgMDE0LjU5LTkuMDkgMTUuNzQgMTUuNzQgMCAwMTQuOTQtMi4zMSAyMi4yNCAyMi4yNCAwIDAxNi0uOCAyMC4xNSAyMC4xNSAwIDAxNi44OSAxIDMzLjU5IDMzLjU5IDAgMDE0LjQzIDEuOTFBMi43OCAyLjc4IDAgMDE0OTAuNCAzNGE0LjA5IDQuMDkgMCAwMS0uMzkgMi41NWwtLjggMS40M2EyLjggMi44IDAgMDEtMS44NCAxLjY4IDQuNDEgNC40MSAwIDAxLTIuNjMtLjRjLS45LS40My0yLS44Ni0zLjI3LTEuMzJhMTMuMzYgMTMuMzYgMCAwMC00LjQ2LS42OCA2Ljg4IDYuODggMCAwMC00LjA3IDEgMy40MiAzLjQyIDAgMDAtMS40NCAzQTMuMTYgMy4xNiAwIDAwNDczIDQ0YTE0Ljg5IDE0Ljg5IDAgMDAzLjc1IDEuODRsNC44NiAxLjcxYTI0LjU5IDI0LjU5IDAgMDE0Ljg3IDIuMzUgMTIuNDcgMTIuNDcgMCAwMTMuNzQgMy42NyAxMCAxMCAwIDAxMS40OCA1LjY3IDExLjQ1IDExLjQ1IDAgMDEtMS4wOCA1IDExLjI1IDExLjI1IDAgMDEtMy4xMSA0IDE1LjI5IDE1LjI5IDAgMDEtNC45IDIuNjMgMjAgMjAgMCAwMS02LjM4IDEgMjEuMzUgMjEuMzUgMCAwMS04LjM0LTEuNDQgMjkuMTYgMjkuMTYgMCAwMS01LjI0LTIuODd6Ii8+PHBhdGggZD0iTTc3LjE2IDg2LjIxaC0uMWE2LjcxIDYuNzEgMCAwMS02LjI1LTQuNTJMNTUuNCAzNy4yOCAzOC42NyA4MS44NWE2LjcgNi43IDAgMDEtNi4yOSA0LjM2IDYuNzIgNi43MiAwIDAxLTYuMjktNC4zOEwuNDIgMTIuNjNBNi43MyA2LjczIDAgMDExMyA4bDE5LjQxIDUyLjI2IDE2Ljk0LTQ1LjEzYTYuNjIgNi42MiAwIDAxNi4zOC00LjM2QTYuNzEgNi43MSAwIDAxNjIgMTUuMjhsMTUuNDUgNDQuNTYgMTktNDkuNzVhMTUgMTUgMCAwMTI4LjMuMDVsMjUuODUgNjYuOTNhNi43MiA2LjcyIDAgMDEtMTAuNDQgNy42OUwxMTEgNjEuNThhNi43MiA2LjcyIDAgMDE4LjM2LTEwLjUzbDkuODMgNy44LTE3LTQ0LS4xMi0uMzVhMS41MSAxLjUxIDAgMDAtMi44NyAwYzAgLjA5LS4wNi4xOS0uMS4yOGwtMjUuNjYgNjcuMWE2LjczIDYuNzMgMCAwMS02LjI4IDQuMzN6IiBmaWxsPSJ1cmwoI3JhZGlhbC1ncmFkaWVudCkiLz48L3N2Zz4="
+   },
+   "labels": {
+      "message": "التصنيفات"
+   },
+   "languages": {
+      "message": "اللغات"
+   },
+   "last_message_date": {
+      "message": "تاريخ آخر رسالة"
+   },
+   "last_message_status": {
+      "message": "حالة آخر رسالة"
+   },
+   "last_message_text": {
+      "message": "نص آخر رسالة"
+   },
+   "last_message_type": {
+      "message": "نوع آخر رسالة"
+   },
+   "leave_a_review": {
+      "message": "أترك تعليقاً"
+   },
+   "leaving": {
+      "message": "مغادرة"
+   },
+   "license_key": {
+      "message": "مفتاح الشهادة"
+   },
+   "lifetime_deal_ends_in_few_days": {
+      "message": "اشتراك مدى الحياة\u003Cbr>ينتهي العرض خلال بضعة أيام!"
+   },
+   "lifetime_license": {
+      "message": "شهادة مدى الحياة"
+   },
+   "light_color": {
+      "message": "Light Color"
+   },
+   "lighter_color": {
+      "message": "Lighter Color"
+   },
+   "link_video": {
+      "message": "رابط/فيديو"
+   },
+   "loading": {
+      "message": "جاري التحميل.."
+   },
+   "lock_whatsapp_web": {
+      "message": "قفل واتساب ويب"
+   },
+   "logout": {
+      "message": "تسجيل الخروج"
+   },
+   "manage": {
+      "message": "إدارة"
+   },
+   "mark_the_conversation_as_read_after_replying": {
+      "message": "تعيين المحادثة كمقروءة بعد الرد"
+   },
+   "maximum_100_at_a_time": {
+      "message": "مئة على الأكثر"
+   },
+   "maximum_allowed_users_reached": {
+      "message": "لقد بلغت الحد الألقصى من المستخدمين, \u003Ca href='https://wawplus.com#packages' target='_blank'>اضغط هنا\u003C/a> لمعرفة المزيد حول الباقات المخصصة للأعمال."
+   },
+   "maximum_auto_replies_reached": {
+      "message": "لقد بلغت الحد الأقصى من الردود التلقائية."
+   },
+   "maximum_message_templates_reached": {
+      "message": "لقد بلغت الحد الأقصى من قوالب الرسائل المسموحة"
+   },
+   "message_content_text_only": {
+      "message": "محتوى الرسالة (نص فقط)"
+   },
+   "message_group_name": {
+      "message": "اسم المجموعة التي تحوي الرسالة"
+   },
+   "message_must_match_the_whole_keyword": {
+      "message": "الرسالة يجب أن تطابق الكلمة المفتاحية"
+   },
+   "message_saved": {
+      "message": "تم حفظ الرسالة."
+   },
+   "message_sender_phone_book_name": {
+      "message": "اسم مرسل الرسالة كما هو محفوظ في هاتفك"
+   },
+   "message_sender_phone_number": {
+      "message": "رقم هاتف مرسل الرسالة"
+   },
+   "message_sender_whatsapp_account_name": {
+      "message": "اسم مرسل الرسالة كما هو في حساب WhatsApp"
+   },
+   "message_template": {
+      "message": "قالب الرسالة"
+   },
+   "message_templates": {
+      "message": "قوالب الرسائل"
+   },
+   "message_templates_data": {
+      "message": "بيانات قوالب الرسائل"
+   },
+   "message_timestamp": {
+      "message": "الطابع الزمني للرسالة"
+   },
+   "message_type": {
+      "message": "نوع الرسالة"
+   },
+   "minimum": {
+      "message": "على الأقل"
+   },
+   "mon": {
+      "message": "إثنين"
+   },
+   "my_card": {
+      "message": "بطاقتي الشخصية"
+   },
+   "my_own_contact_card": {
+      "message": "بطاقتي التعريفية الشخصية"
+   },
+   "name": {
+      "message": "الاسم"
+   },
+   "nart_1": {
+      "message": "نحن نحتفل بمبرمج رضيع جديد في فريقنا!"
+   },
+   "nart_2": {
+      "message": "لهذا، قررنا أن نقدم لعملائنا الجدد رمز تخفيض بنسبة 10٪! انسخ هذا الرمز واستخدمه عند الاشتراك."
+   },
+   "nart_3": {
+      "message": "نحن نحتفل بالسن الأول!"
+   },
+   "nart_4": {
+      "message": "مبرمجنا الصغير حصل على أول أسنانه! قررنا احتفالاً بذلك أن نمنح مستخدمينا خصماً بنسبة 10٪ على حزمة \"المبتدئ\" ، إذا لم تجرّب WA Web Plus بعد ، فهذه فرصتك الآن!"
+   },
+   "need_more_users": {
+      "message": "تحتاج إلى مزيد من المستخدمين؟"
+   },
+   "never": {
+      "message": "أبداً"
+   },
+   "new": {
+      "message": "جديد"
+   },
+   "new_group_action": {
+      "message": "إجراء جديد"
+   },
+   "new_group_name": {
+      "message": "اسم المجموعة الجديدة"
+   },
+   "new_message_template": {
+      "message": "قالب رسالة جديد"
+   },
+   "new_reply_template": {
+      "message": "قالب رد جديد"
+   },
+   "new_scheduled_action": {
+      "message": "مهمة جديدة مجدولة"
+   },
+   "new_version_installed": {
+      "message": "تم تثبيت إصدار جديد بميزات جديدة!"
+   },
+   "night_mode_background_image": {
+      "message": "صورة خلفية الوضع الليلي"
+   },
+   "night_mode_colors": {
+      "message": "ألوان الوضع الليلي \u003Csmall>(انزل للأسفل لمزيد من الخيارات)\u003C/small>"
+   },
+   "no": {
+      "message": "لا"
+   },
+   "no_crm_api_key_found": {
+      "message": "لم يتم العثور على مفتاح API لبرنامج إدارة العملاء المحدد."
+   },
+   "no_files_attached": {
+      "message": "لا يوجد ملفات مرفقة"
+   },
+   "notify_online_contacts": {
+      "message": "التنبيه عند توفر جهة الإتصال"
+   },
+   "only_people_with_a_conversation": {
+      "message": "فقط جهات الإتصال التي تمت محادثتها"
+   },
+   "or": {
+      "message": "أو"
+   },
+   "order_details_sent_to_email": {
+      "message": "يتم إرسال مفتاح الترخيص وتفاصيل الطلب إلى عنوان بريدك الإلكتروني عند الاشتراك. إذا لم تتلق بريداً إلكترونياً منا، فيرجى الانتظار لمدة 10 دقائق حتى تتم معالجة طلبك. إذا لم تجد الرسالة في صندوق الوارد الخاص بك، يرجى التحقق من مجلد الرسائل المزعجة Spam."
+   },
+   "order_id": {
+      "message": "رقم الطلب"
+   },
+   "os": {
+      "message": "نظام التشغيل"
+   },
+   "other_contacts_cards": {
+      "message": "بطاقات جهات الإتصال"
+   },
+   "our_packages": {
+      "message": "باقاتنا"
+   },
+   "outgoing": {
+      "message": "صادرة"
+   },
+   "owner": {
+      "message": "المالك"
+   },
+   "package": {
+      "message": "الحزمة"
+   },
+   "password_reset_check_your_whatsapp": {
+      "message": "تمت إعادة تعيين كلمة المرور، يرجى التحقق من حساب WhatsApp الخاص بك للحصول على كلمة المرور الجديدة."
+   },
+   "paste_groups_links_text_1": {
+      "message": "انسخ والصق في الأسفل روابط المجموعات التي تريد الانضمام إليها، ضع رابطاً واحداً في كل سطر."
+   },
+   "paste_groups_links_text_2": {
+      "message": "مدة فصل عشوائية بين عمليات الانضمام لتجنب الحظر:"
+   },
+   "paste_key_here": {
+      "message": "إلصق المفتاح هنا.."
+   },
+   "paste_targets_text": {
+      "message": "قم بلصق قائمة جهات الإتصال بالطريقة التالية: \u003Ccode>الاسم:الرقم\u003C/code>، كل جهة اتصال يجب أن تكون في سطر منفصل. قم بإزالة الأصفار من بداية الرقم، الأقواس أو أي إشارات أخرى عند وضعك للرقم بالصيغة الدولية، كما يمكنك نسخ حقل الاسم والرقم من ملف إكسل."
+   },
+   "paste_the_list_of_groups_links": {
+      "message": "قم بلصق قائمة روابط المجموعات:"
+   },
+   "paste_the_list_of_targets": {
+      "message": "قم بلصق جهات الإتصال:"
+   },
+   "personal_chats": {
+      "message": "دردشات الحسابات الشخصية"
+   },
+   "phone": {
+      "message": "رقم الهاتف"
+   },
+   "phone_contacts": {
+      "message": "جهات اتصال الهاتف"
+   },
+   "phone_number": {
+      "message": "رقم الهاتف"
+   },
+   "phone_number_field": {
+      "message": "حقل رقم الهاتف"
+   },
+   "pick_countries": {
+      "message": "اختر الدول"
+   },
+   "pick_labels": {
+      "message": "اختر التصنيفات"
+   },
+   "pin_unlimited_chats_web_only": {
+      "message": "تثبيت عدد لا نهائي من المحادثات (على الويب فقط)"
+   },
+   "pin_unread_chats_to_the_top": {
+      "message": "تثبيت المحادثات الغير مقروءة في الأعلى"
+   },
+   "play_audio_messages_without_informing_the_sender": {
+      "message": "تشغيل الرسائل الصوتية بدون تنبيه المرسل"
+   },
+   "please_choose_future_date": {
+      "message": "يرجى اختيار تاريخ مستقبلي!"
+   },
+   "please_contact_us_to_remove_limitation": {
+      "message": "من فضلك قم بالتواصل معنا لإزالة هذا التقييد."
+   },
+   "please_enter_phone_with_country_code": {
+      "message": "من فضلك أدخل رقم الهاتف (مع رمز الدولة):"
+   },
+   "please_help_stopping_corona": {
+      "message": "الرجاء المساعدة في وقف تفشي فيروس كورونا في جميع أنحاء العالم، ابق في المنزل!"
+   },
+   "population": {
+      "message": "عدد السكان"
+   },
+   "premium": {
+      "message": "ترقية"
+   },
+   "privacy": {
+      "message": "الخصوصية"
+   },
+   "quick_links": {
+      "message": "روابط سريعة"
+   },
+   "quote_the_senders_message_with_the_reply": {
+      "message": "اقتباس رسالة المرسل عند إرسال الرد التلقائي"
+   },
+   "random_separation_duration_between_messages_to_avoid_blocking": {
+      "message": "فاصل زمني عشوائي بين الرسائل (لتفادي الحظر)"
+   },
+   "randomly": {
+      "message": "بشكل عشوائي"
+   },
+   "reaction_type": {
+      "message": "نوع الإجراء المعاكس"
+   },
+   "read": {
+      "message": "مقروءة"
+   },
+   "read_the_tips": {
+      "message": "اقرأ النصائح"
+   },
+   "redish_color": {
+      "message": "Red-ish Color"
+   },
+   "reload": {
+      "message": "إعادة تحميل"
+   },
+   "remove": {
+      "message": "إزالة"
+   },
+   "remove_file": {
+      "message": "إزالة الملف"
+   },
+   "repeat_this_action_for": {
+      "message": "تكرار هذا الإجراء لمدة"
+   },
+   "reply_added": {
+      "message": "تم إضافة الرد"
+   },
+   "reply_delay": {
+      "message": "تأخير الرد"
+   },
+   "reply_template_deleted": {
+      "message": "تم حذف قالب الرد"
+   },
+   "reply_title": {
+      "message": "عنوان الرد"
+   },
+   "reply_to_send": {
+      "message": "الرد الذي سيتم إرساله"
+   },
+   "reply_type": {
+      "message": "نوع الرد"
+   },
+   "report_a_bug": {
+      "message": "الإبلاغ عن مشكلة"
+   },
+   "request_a_feature": {
+      "message": "طلب ميزة جديدة"
+   },
+   "request_payload": {
+      "message": "بيانات الطلب"
+   },
+   "response_action": {
+      "message": "نوع الإستجابة"
+   },
+   "restore_deleted_messages": {
+      "message": "استعادة الرسائل المحذوفة"
+   },
+   "restore_deleted_messages_help": {
+      "message": "ضع المؤشر فوق الرسائل المحذوفة لاستعادتها، واتس أب ويب يجب أن يكون مفتوحاً عند استقبال الرسائل."
+   },
+   "run_action": {
+      "message": "تشغيل المهمة"
+   },
+   "sat": {
+      "message": "سبت"
+   },
+   "save_contact": {
+      "message": "حفظ جهة الإتصال"
+   },
+   "save_reply": {
+      "message": "حفظ الرد"
+   },
+   "save_request_sent_check_crm": {
+      "message": "تم إرسال طلب الحفظ، تحقق من برنامج إدارة العملاء الخاص بك."
+   },
+   "save_request_sent_open_mobile_app": {
+      "message": "تم إرسال الطلب، افتح تطبيق WA Web Plus على هاتفك للمزامنة."
+   },
+   "save_template": {
+      "message": "حفظ الرسالة"
+   },
+   "schedule_for_later": {
+      "message": "جدولة لتاريخ لاحق"
+   },
+   "schedule_messaging_action": {
+      "message": "جدولة مهمة جديدة"
+   },
+   "scheduled_action_deleted": {
+      "message": "تم حذف الإجراء المجدول"
+   },
+   "scheduled_messages_list": {
+      "message": "قائمة الرسائل المجدولة"
+   },
+   "scheduled_messages_note1": {
+      "message": "الرسائل المجدولة لا تدعم الملفات المرفقة حالياً."
+   },
+   "scheduled_messages_note2": {
+      "message": "لا تغلق صفحة WhatsApp Web."
+   },
+   "scheduled_messages_note3": {
+      "message": "حافظ على اتصال الإنترنت والطاقة في هاتفك وحاسوبك."
+   },
+   "scheduled_messaging": {
+      "message": "الرسائل المجدولة"
+   },
+   "seconds": {
+      "message": "ثانية"
+   },
+   "secure_payments_are_processed_through_paddle": {
+      "message": "يتم معالجة عملية الدفع بشكل آمن من خلال Paddle"
+   },
+   "select": {
+      "message": "اختر"
+   },
+   "select_contact_card": {
+      "message": "اختر جهات الإتصال"
+   },
+   "select_country": {
+      "message": "اختر الدولة"
+   },
+   "select_from_chats": {
+      "message": "اختر من المحادثات"
+   },
+   "select_group": {
+      "message": "اختر المجموعة"
+   },
+   "select_label": {
+      "message": "اختر التصنيف"
+   },
+   "select_messages": {
+      "message": "اختر الرسائل"
+   },
+   "select_target": {
+      "message": "اختر الهدف"
+   },
+   "select_target_broadcasts": {
+      "message": "اختر قوائم الرسائل الجماعية"
+   },
+   "select_target_chats": {
+      "message": "اختر المحادثات"
+   },
+   "select_target_contacts": {
+      "message": "اختر جهات الإتصال"
+   },
+   "select_target_countries": {
+      "message": "اختر الدول المستهدفة"
+   },
+   "select_target_groups": {
+      "message": "اختر المجموعات المستهدفة"
+   },
+   "select_target_labels": {
+      "message": "اختر التصنيفات المستهدفة"
+   },
+   "select_target_lists": {
+      "message": "اختر القوائم المستهدفة"
+   },
+   "selected_broadcasts": {
+      "message": "قوائم الرسائل الجماعية المختارة"
+   },
+   "selected_contacts": {
+      "message": "جهات الإتصال المختارة"
+   },
+   "selected_groups": {
+      "message": "المجموعات المختارة"
+   },
+   "selected_labels": {
+      "message": "التصنيفات المختارة"
+   },
+   "send": {
+      "message": "إرسال"
+   },
+   "send_message_to_group": {
+      "message": "أرسل رسالة في المجموعة"
+   },
+   "send_message_to_user_privately": {
+      "message": "أرسل رسالة خاصة إلى المستخدم"
+   },
+   "send_to_my_phone": {
+      "message": "أرسل إلى هاتفي"
+   },
+   "send_typing_status_before_replying": {
+      "message": "إرسال حالة جاري الكتابة قبل الرد"
+   },
+   "set": {
+      "message": "تعيين"
+   },
+   "set_lock_password": {
+      "message": "إنشاء كلمة مرور"
+   },
+   "set_password": {
+      "message": "تعيين كلمة المرور"
+   },
+   "settings": {
+      "message": "الإعدادات"
+   },
+   "settings_data": {
+      "message": "بيانات الإعدادات"
+   },
+   "settings_saved": {
+      "message": "تم حفظ الإعدادات."
+   },
+   "share": {
+      "message": "مشاركة"
+   },
+   "share_with_friends": {
+      "message": "المشاركة مع الأصدقاء"
+   },
+   "show_this_message_in_quick_replies_list": {
+      "message": "إظهار هذه الرسالة في قامة الردود السريعة"
+   },
+   "smart_replies": {
+      "message": "الردود التلقائية"
+   },
+   "smart_replies_data": {
+      "message": "بيانات الردود التلقائية"
+   },
+   "smart_reply": {
+      "message": "الرد الذكي"
+   },
+   "something_is_wrong_with_your_license_key": {
+      "message": "يوجد خطأ ما في مفتاح الترخيص الخاص بك، يرجى التحقق من حالة الاشتراك من أيقونة المفتاح في أسفل نافذة WA Web Plus."
+   },
+   "something_went_wrong": {
+      "message": "حصل خطأ غير متوقع"
+   },
+   "sorry_discount_invalid": {
+      "message": "عذراً، كود التخفيض الذي أدخلته غير صالح!"
+   },
+   "sorry_payment_failed": {
+      "message": "عذراً، فشلت عملية الدفع بسبب مشكلة في طريقة الدفع أو حساب Google. يرجى مراجعة الحلول التالية:"
+   },
+   "speedup_audio_messages": {
+      "message": "تسريع تشغيل الرسائل الصوتية"
+   },
+   "start_conversation_with_new_contact": {
+      "message": "بدء المحادثة مع جهة اتصال جديدة"
+   },
+   "start_messaging": {
+      "message": "ابدأ الإرسال"
+   },
+   "statistics": {
+      "message": "الإحصائيات"
+   },
+   "stats": {
+      "message": "الإحصائيات"
+   },
+   "status": {
+      "message": "الحالة"
+   },
+   "status_image": {
+      "message": "صورة الحالة"
+   },
+   "status_media": {
+      "message": "صورة الحالة"
+   },
+   "status_message": {
+      "message": "نص الحالة"
+   },
+   "status_not_ready": {
+      "message": "هذه الحالة إما أنها لا تدعم التنزيل أو لم يتم تحميلها بعد، يرجى الانتظار حتى يتم تحميلها أو العودة لتنزيلها لاحقًا."
+   },
+   "status_posted": {
+      "message": "تم نشر الحالة"
+   },
+   "stay_home": {
+      "message": "ابق في المنزل"
+   },
+   "sticker_generator": {
+      "message": "إنشاء الملصقات"
+   },
+   "sticker_image": {
+      "message": "صورة الملصق"
+   },
+   "sticker_image_note": {
+      "message": "يجب أن تكون صورة الملصق مربعة وإلا فستبدو سيئة. يمكنك بسهولة استخدام \u003Ca href='https://remove.bg' target='_blank'>www.remove.bg\u003C/a> لإزالة خلفية ملصقاتك تلقائياً وبنقرة واحدة! \u003Cbr> \u003Cbr > انقر فوق زر \"إرسال\" لحفظ الملصق في الدردشة الشخصية على WhatsApp."
+   },
+   "stop": {
+      "message": "إيقاف"
+   },
+   "stop_automated_messaging": {
+      "message": "إيقاف الإرسال الآلي"
+   },
+   "stop_bulk_joining": {
+      "message": "إيقاف عملية الإنضمام"
+   },
+   "subscribe": {
+      "message": "اشترك"
+   },
+   "subscribe_now_8": {
+      "message": "اشترك الآن (&dollar;8.99/m)"
+   },
+   "subscribe_now_9": {
+      "message": "اشترك الآن (&dollar;9.99/شهر)"
+   },
+   "subscribe_to_unlock_these_features_click_here_to_see_a_demo": {
+      "message": "اشترك لاستخدام هذه الميزات، \u003Ca href='https://wawplus.com' target='_blank'>اضغط هنا\u003C/a> لمعرفة المزيد."
+   },
+   "subscriptions_list": {
+      "message": "قائمة الإشتراكات"
+   },
+   "successfully_connected_to_whatsapp_web": {
+      "message": "تم الإتصال بنجاح بـ WhatsApp Web."
+   },
+   "successfully_joined_groups": {
+      "message": "مجموعات تم الإنضمام إليها بنجاح"
+   },
+   "sun": {
+      "message": "أحد"
+   },
+   "support": {
+      "message": "الدعم الفني"
+   },
+   "template_deleted": {
+      "message": "تم حذف نموذج الرسالة."
+   },
+   "template_file_validation": {
+      "message": "حجم الملف يجب أن لا يتجاوز 60 ميغابايت"
+   },
+   "template_image_validation": {
+      "message": "يجب أن يكون ملف صورة بامتداد (jpeg, jpg, png) وبحجم أقل من 1 ميغا"
+   },
+   "template_message": {
+      "message": "نص الرسالة"
+   },
+   "template_saved": {
+      "message": "تم حفظ نموذج الرسالة."
+   },
+   "template_title": {
+      "message": "عنوان القالب"
+   },
+   "template_type": {
+      "message": "نوع القالب"
+   },
+   "text": {
+      "message": "نص"
+   },
+   "text_message": {
+      "message": "الرسالة النصية"
+   },
+   "thank_you_for_subscribing": {
+      "message": "شكراً لاشتراكك، استمتع بالميزات الجديدة!"
+   },
+   "the_message_to_be_sent_automatically": {
+      "message": "الرسالة التي سيتم إرسالها بشكل تلقائي"
+   },
+   "the_reply_to_be_sent_automatically_to_users": {
+      "message": "الرد الذي سيتم إرساله تلقائياً للمستخدمين"
+   },
+   "this_message_was_deleted": {
+      "message": "This message was deleted"
+   },
+   "this_option_will_make_another_copy_of_group": {
+      "message": "سيقوم هذا الخيار بعمل نسخة أخرى من المجموعة بنفس الأعضاء."
+   },
+   "this_option_will_remove_all_participants": {
+      "message": "سيؤدي هذا الخيار إلى إزالة جميع الأعضاء في المجموعة المحددة."
+   },
+   "thu": {
+      "message": "خميس"
+   },
+   "to": {
+      "message": "إلى"
+   },
+   "to_google_contacts": {
+      "message": "إلى جهات إتصال Google"
+   },
+   "to_my_phone": {
+      "message": "إلى هاتفي"
+   },
+   "to_start_using_open_wa_first": {
+      "message": "للبدء باستخدام التطبيق، افتح $1 أولاً."
+   },
+   "token_saved": {
+      "message": "تم حفظ الرمز."
+   },
+   "try_to_fix_the_problem": {
+      "message": "محاولة إصلاح المشكلة"
+   },
+   "tue": {
+      "message": "ثلاثاء"
+   },
+   "type_the_message": {
+      "message": "اكتب الرسالة"
+   },
+   "unavailable": {
+      "message": "غير متوفر"
+   },
+   "unread": {
+      "message": "غير مقروءة"
+   },
+   "updated_night_mode_to_latest_version": {
+      "message": "تحديث الوضع الليلي إلى آخر إصدار"
+   },
+   "upload_from_excel": {
+      "message": "اختر من ملف Excel"
+   },
+   "use_c_to_print_contact_name_as_saved_on_your_phone": {
+      "message": "استخدم {C} لطباعة اسم جهة الإتصال كما هو محفوظ في هاتفك."
+   },
+   "use_cf_to_print_contact_first_name_only_as_saved_on_your_phone": {
+      "message": "استخدم {CF} لطباعة الاسم الأول فقط لجهة الإتصال كما هو محفوظ في هاتفك."
+   },
+   "use_g_to_print_group_name": {
+      "message": "استخدم {G} لطباعة اسم المجموعة."
+   },
+   "use_u_to_print_contact_name_as_saved_on_wa_account": {
+      "message": "استخدم {U} لطباعة اسم جهة الإتصال كما هو مسجل في حسابهم على واتس أب."
+   },
+   "use_uf_to_print_contact_first_name_only_as_saved_on_wa_account": {
+      "message": "استخدم {UF} لطباعة الاسم الأول فقط لجهة الإتصال كما هو مسجل في حسابهم على واتس أب."
+   },
+   "use_w_to_print_webhook_response": {
+      "message": "استخدم {W} لطباعة استجابة Webhook."
+   },
+   "user": {
+      "message": "مستخدم"
+   },
+   "users": {
+      "message": "مستخدم"
+   },
+   "valid": {
+      "message": "صالحة"
+   },
+   "validate": {
+      "message": "التحقق"
+   },
+   "validate_license_key": {
+      "message": "التحقق من مفتاح الشهادة"
+   },
+   "verify_if_numbers_have_whatsapp": {
+      "message": "التحقق إذا كانت الأرقام تملك حساب واتس أب قبل استيرادها"
+   },
+   "view_numbers_list": {
+      "message": "عرض قائمة المستخدمين"
+   },
+   "view_statuses_without_informing_the_poster": {
+      "message": "استعراض الحالات دون إبلاغ المرسل"
+   },
+   "warning": {
+      "message": "تنبيه"
+   },
+   "webhook": {
+      "message": "Webhook"
+   },
+   "webhook_deleted": {
+      "message": "تم حذف Webhook."
+   },
+   "webhook_direction": {
+      "message": "إتجاه Webhook"
+   },
+   "webhook_endpoint": {
+      "message": "رابط Webhook"
+   },
+   "webhook_error": {
+      "message": "خطأ Webhook"
+   },
+   "webhook_method": {
+      "message": "نوع Webhook"
+   },
+   "webhook_saved": {
+      "message": "تم حفظ Webhook."
+   },
+   "webhook_trigger": {
+      "message": "Webhook مشغل"
+   },
+   "webhooks": {
+      "message": "Webhooks"
+   },
+   "webhooks_description": {
+      "message": "تطوير WhatsApp الخاص بك باستخدام واجهات برمجة مخصصة API لأتمتة الردود وإرسال البيانات من WhatsApp إلى نقطة إتصال على السيرفر الخاص بك."
+   },
+   "webhooks_list": {
+      "message": "Webhooks قائمة"
+   },
+   "wed": {
+      "message": "أربعاء"
+   },
+   "welcome_to_wawp": {
+      "message": "WA Web Plus أهلاً بك في"
+   },
+   "what_template_name_you_want_to_use": {
+      "message": "ما عنوان قالب الرسالة الذي تريد استخدامه؟"
+   },
+   "whats_new_in_version": {
+      "message": "ما الجديد في الإصدار $1؟"
+   },
+   "whatsapp_numbers": {
+      "message": "أرقام واتسآب"
+   },
+   "when_a_new_message_is_received": {
+      "message": "عند استقبال رسالة جديدة"
+   },
+   "when_a_smart_reply_is_sent": {
+      "message": "عندما يتم إرسال رد ذكي"
+   },
+   "why_dont_you_setp_smart_reply": {
+      "message": "لماذا لا تقوم \u003Ca href='javascript:;'>بإعداد رد ذكي\u003C/a> للرابط الخاص بك؟"
+   },
+   "x_direction": {
+      "message": "rtl"
+   },
+   "x_direction_class_letter": {
+      "message": "r"
+   },
+   "x_direction_class_letter_opposite": {
+      "message": "l"
+   },
+   "x_direction_float": {
+      "message": "right"
+   },
+   "x_direction_float_opposite": {
+      "message": "left"
+   },
+   "x_direction_opposite": {
+      "message": "ltr"
+   },
+   "x_id": {
+      "message": "ekcgkejcjdcmonfpmnljobemcbpnkamh"
+   },
+   "x_lang_code": {
+      "message": "ar"
+   },
+   "x_lang_name": {
+      "message": "العربية"
+   },
+   "x_link": {
+      "message": "chrome-extension://ekcgkejcjdcmonfpmnljobemcbpnkamh"
+   },
+   "yes_stop": {
+      "message": "نعم، إيقاف"
+   },
+   "you_already_restored_maximum_messages": {
+      "message": "لقد قمت باستعادة الحد الأقصى من الرسائل المحذوفة. لاستعادة المزيد، من فضلك قم بالإشتراك. الإشتراك فقط #1 لاستعادة الرسائل المحذوفة بلا حدود."
+   },
+   "you_cannot_delete_the_default_reply": {
+      "message": "لا يمكنك حذف الرد الإفتراضي."
+   },
+   "you_cannot_delete_the_default_template": {
+      "message": "لا يمكنك حذف قالب الرسالة الافتراضي."
+   },
+   "you_cant_export_wawp_groups": {
+      "message": "لا يمكنك تصدير مجموعات WA Web Plus!"
+   },
+   "you_didnt_set_a_password_yet": {
+      "message": "لم تقم بتعيين كلمة مرور بعد!"
+   },
+   "you_have_no_available_subscriptions": {
+      "message": "ليس لديك اشتراكات فعالة."
+   },
+   "you_have_no_crm_integrations": {
+      "message": "لا يوجد أي عمليات ربط."
+   },
+   "you_have_no_groups_actions_set": {
+      "message": "لا يوجد إجراءات مضافة."
+   },
+   "you_have_no_scheduled_actions": {
+      "message": "لا يوجد مهام مجدولة."
+   },
+   "you_have_no_webhooks": {
+      "message": "لا يوجد لديك Webhook."
+   },
+   "you_have_not_selected_any_targets": {
+      "message": "لم تقم باختيار أية أهداف!"
+   },
+   "you_have_selected_more_than_100_targets": {
+      "message": "لقد قمت باختيار أكثر من 100 هدف!"
+   },
+   "your_api_key": {
+      "message": "مفتاح API الخاص بك"
+   },
+   "your_new_password": {
+      "message": "كلمة المرور الجديدة"
+   },
+   "your_new_whatsapp_web_password_is": {
+      "message": "كلمة مرور WhatsApp Web الجديدة هي:"
+   },
+   "your_order_id": {
+      "message": "رقم إشتراكك"
+   },
+   "your_prefilled_message": {
+      "message": "رسالتك المعبأة مسبقًا"
+   }
+}

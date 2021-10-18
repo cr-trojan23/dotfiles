@@ -1,0 +1,127 @@
+[2021-10-18 12:03:12.638] [exthost] [info] extension host started
+[2021-10-18 12:03:12.863] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+[2021-10-18 12:03:12.864] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/77/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js
+[2021-10-18 12:03:12.903] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2021-10-18 12:03:12.903] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/77/usr/share/code/resources/app/extensions/debug-auto-launch/dist/extension
+[2021-10-18 12:03:12.907] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*', root cause: vscode.github
+[2021-10-18 12:03:12.907] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/77/usr/share/code/resources/app/extensions/git/dist/main
+[2021-10-18 12:03:13.051] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2021-10-18 12:03:13.052] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/77/usr/share/code/resources/app/extensions/github/dist/extension.js
+[2021-10-18 12:03:13.082] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.js-debug, startup: false, activationEvent: 'onCommand:extension.js-debug.clearAutoAttachVariables'
+[2021-10-18 12:03:13.082] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/77/usr/share/code/resources/app/extensions/ms-vscode.js-debug/src/extension.js
+[2021-10-18 12:03:13.279] [exthost] [info] eager extensions activated
+[2021-10-18 12:03:13.297] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2021-10-18 12:03:13.297] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/77/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain
+[2021-10-18 12:03:13.311] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2021-10-18 12:03:13.312] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/77/usr/share/code/resources/app/extensions/merge-conflict/dist/mergeConflictMain
+[2021-10-18 12:03:13.394] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+[2021-10-18 12:03:13.394] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/77/usr/share/code/resources/app/extensions/github-authentication/dist/extension.js
+[2021-10-18 12:04:12.488] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.cpptools, startup: false, activationEvent: '*'
+[2021-10-18 12:04:12.488] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/kiaria/.vscode/extensions/ms-vscode.cpptools-1.7.0/dist/main
+[2021-10-18 12:04:16.090] [exthost] [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+[2021-10-18 12:04:16.090] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/77/usr/share/code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain
+[2021-10-18 12:04:16.154] [exthost] [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
+[2021-10-18 12:04:16.154] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/77/usr/share/code/resources/app/extensions/css-language-features/client/dist/node/cssClientMain
+[2021-10-18 12:04:16.183] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+[2021-10-18 12:04:16.183] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/77/usr/share/code/resources/app/extensions/configuration-editing/dist/configurationEditingMain
+[2021-10-18 12:04:16.188] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+[2021-10-18 12:04:16.188] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/77/usr/share/code/resources/app/extensions/extension-editing/dist/extensionEditingMain
+[2021-10-18 12:04:16.204] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+[2021-10-18 12:04:16.204] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/77/usr/share/code/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain
+[2021-10-18 12:04:16.272] [exthost] [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onLanguage:json'
+[2021-10-18 12:04:16.272] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/77/usr/share/code/resources/app/extensions/npm/dist/npmMain
+[2021-10-18 12:04:17.014] [exthost] [info] ExtensionService#_doActivateExtension ecmel.vscode-html-css, startup: false, activationEvent: '*'
+[2021-10-18 12:04:17.014] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/kiaria/.vscode/extensions/ecmel.vscode-html-css-1.10.2/dist/extension.js
+[2021-10-18 12:04:26.024] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+[2021-10-18 12:04:26.029] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/77/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension
+[2021-10-18 12:04:27.877] [exthost] [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint, startup: false, activationEvent: 'onStartupFinished'
+[2021-10-18 12:04:27.878] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/kiaria/.vscode/extensions/dbaeumer.vscode-eslint-2.2.1/client/out/extension
+[2021-10-18 12:04:31.541] [exthost] [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+[2021-10-18 12:04:31.541] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/kiaria/.vscode/extensions/esbenp.prettier-vscode-9.0.0/dist/extension
+[2021-10-18 12:04:32.203] [exthost] [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onWalkthrough:pythonWelcome'
+[2021-10-18 12:04:32.203] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/kiaria/.vscode/extensions/ms-python.python-2021.10.1336267007/out/client/extension
+[2021-10-18 12:04:32.908] [exthost] [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'api', root cause: ms-python.python
+[2021-10-18 12:04:32.908] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/kiaria/.vscode/extensions/ms-python.vscode-pylance-2021.10.1/dist/extension.bundle.js
+[2021-10-18 12:04:33.109] [exthost] [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: '*'
+[2021-10-18 12:04:33.109] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/kiaria/.vscode/extensions/ritwickdey.liveserver-5.6.1/out/src/extension
+[2021-10-18 12:04:37.149] [exthost] [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: '*'
+[2021-10-18 12:04:37.149] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/kiaria/.vscode/extensions/pkief.material-icon-theme-4.10.0/dist/extension
+[2021-10-18 12:04:47.166] [exthost] [info] ExtensionService#_doActivateExtension CoenraadS.bracket-pair-colorizer, startup: false, activationEvent: '*'
+[2021-10-18 12:04:47.167] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/kiaria/.vscode/extensions/coenraads.bracket-pair-colorizer-1.0.61/out/src/extension
+[2021-10-18 12:04:55.810] [exthost] [info] ExtensionService#_doActivateExtension christian-kohler.path-intellisense, startup: false, activationEvent: '*'
+[2021-10-18 12:04:55.810] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/kiaria/.vscode/extensions/christian-kohler.path-intellisense-2.4.0/out/extension.js
+[2021-10-18 12:05:08.778] [exthost] [info] ExtensionService#_doActivateExtension eg2.vscode-npm-script, startup: false, activationEvent: 'onLanguage:json'
+[2021-10-18 12:05:08.778] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/kiaria/.vscode/extensions/eg2.vscode-npm-script-0.3.22/dist/extension
+[2021-10-18 12:05:48.026] [exthost] [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: '*'
+[2021-10-18 12:05:48.026] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/kiaria/.vscode/extensions/github.copilot-1.5.3217/dist/extension
+[2021-10-18 12:06:42.868] [exthost] [info] ExtensionService#_doActivateExtension equinusocio.vsc-material-theme-icons, startup: false, activationEvent: '*'
+[2021-10-18 12:06:42.869] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/kiaria/.vscode/extensions/equinusocio.vsc-material-theme-icons-2.2.1/out/src/extension
+[2021-10-18 12:06:42.903] [exthost] [info] ExtensionService#_doActivateExtension Equinusocio.vsc-material-theme, startup: false, activationEvent: '*'
+[2021-10-18 12:06:42.903] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/kiaria/.vscode/extensions/equinusocio.vsc-material-theme-33.2.2/build/material.theme.config
+[2021-10-18 12:06:57.957] [exthost] [info] extension host terminating: renderer closed the socket
+[2021-10-18 12:06:57.993] [exthost] [error] TypeError: Cannot read property 'timeTelemetryCollector' of undefined
+    at Object.deactivate (/home/kiaria/.vscode/extensions/ms-vscode.cpptools-1.7.0/dist/main.js:49394:13)
+    at Object.deactivate (/home/kiaria/.vscode/extensions/ms-vscode.cpptools-1.7.0/dist/main.js:54439:27)
+    at v._deactivate (/snap/code/77/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:99:11277)
+    at /snap/code/77/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:99:9991
+    at Array.map (<anonymous>)
+    at v.deactivateAll (/snap/code/77/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:99:9979)
+    at b.terminate (/snap/code/77/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:103:723)
+    at o (/snap/code/77/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:113:32535)
+    at Socket.<anonymous> (/snap/code/77/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:113:30185)
+    at Socket.emit (events.js:327:22)
+    at Pipe.<anonymous> (net.js:673:12)
+[2021-10-18 12:06:57.999] [exthost] [error] Activating extension Equinusocio.vsc-material-theme failed due to an error:
+[2021-10-18 12:06:57.999] [exthost] [error] Canceled: Canceled
+    at Object.n [as canceled] (/snap/code/77/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:5:1157)
+    at /snap/code/77/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:98:9064
+    at Array.forEach (<anonymous>)
+    at i.dispose (/snap/code/77/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:98:9012)
+    at b.terminate (/snap/code/77/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:103:682)
+    at o (/snap/code/77/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:113:32535)
+    at Socket.<anonymous> (/snap/code/77/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:113:30185)
+    at Socket.emit (events.js:327:22)
+    at Pipe.<anonymous> (net.js:673:12)
+[2021-10-18 12:06:58.994] [exthost] [info] exiting with code 0
+[2021-10-18 12:06:59.807] [exthost] [info] extension host started
+[2021-10-18 12:06:59.807] [exthost] [info] Skipping acquiring lock for /home/kiaria/.config/Code/User/workspaceStorage/55d482c53b6e899d6a2c6b5f3b3d67be.
+[2021-10-18 12:07:00.063] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+[2021-10-18 12:07:00.063] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/77/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js
+[2021-10-18 12:07:00.070] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2021-10-18 12:07:00.070] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/77/usr/share/code/resources/app/extensions/debug-auto-launch/dist/extension
+[2021-10-18 12:07:00.073] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*', root cause: vscode.github
+[2021-10-18 12:07:00.073] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/77/usr/share/code/resources/app/extensions/git/dist/main
+[2021-10-18 12:07:00.086] [exthost] [info] ExtensionService#_doActivateExtension christian-kohler.path-intellisense, startup: true, activationEvent: '*'
+[2021-10-18 12:07:00.086] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/kiaria/.vscode/extensions/christian-kohler.path-intellisense-2.4.0/out/extension.js
+[2021-10-18 12:07:00.096] [exthost] [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: true, activationEvent: '*'
+[2021-10-18 12:07:00.096] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/kiaria/.vscode/extensions/pkief.material-icon-theme-4.10.0/dist/extension
+[2021-10-18 12:07:00.212] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2021-10-18 12:07:00.212] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/77/usr/share/code/resources/app/extensions/github/dist/extension.js
+[2021-10-18 12:07:00.257] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.js-debug, startup: false, activationEvent: 'onCommand:extension.js-debug.clearAutoAttachVariables'
+[2021-10-18 12:07:00.258] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/77/usr/share/code/resources/app/extensions/ms-vscode.js-debug/src/extension.js
+[2021-10-18 12:07:00.371] [exthost] [info] eager extensions activated
+[2021-10-18 12:07:00.600] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2021-10-18 12:07:00.600] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/77/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain
+[2021-10-18 12:07:00.605] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2021-10-18 12:07:00.605] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/77/usr/share/code/resources/app/extensions/merge-conflict/dist/mergeConflictMain
+[2021-10-18 12:07:00.607] [exthost] [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+[2021-10-18 12:07:00.608] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/kiaria/.vscode/extensions/esbenp.prettier-vscode-9.0.0/dist/extension
+[2021-10-18 12:07:01.104] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+[2021-10-18 12:07:01.105] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/77/usr/share/code/resources/app/extensions/github-authentication/dist/extension.js
+[2021-10-18 12:07:01.189] [exthost] [info] ExtensionService#_doActivateExtension CoenraadS.bracket-pair-colorizer, startup: false, activationEvent: '*'
+[2021-10-18 12:07:01.189] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/kiaria/.vscode/extensions/coenraads.bracket-pair-colorizer-1.0.61/out/src/extension
+[2021-10-18 12:07:01.198] [exthost] [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint, startup: false, activationEvent: 'onStartupFinished'
+[2021-10-18 12:07:01.198] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/kiaria/.vscode/extensions/dbaeumer.vscode-eslint-2.2.1/client/out/extension
+[2021-10-18 12:07:01.206] [exthost] [info] ExtensionService#_doActivateExtension ecmel.vscode-html-css, startup: false, activationEvent: '*'
+[2021-10-18 12:07:01.206] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/kiaria/.vscode/extensions/ecmel.vscode-html-css-1.10.2/dist/extension.js
+[2021-10-18 12:07:01.235] [exthost] [info] ExtensionService#_doActivateExtension Equinusocio.vsc-material-theme, startup: false, activationEvent: '*'
+[2021-10-18 12:07:01.235] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/kiaria/.vscode/extensions/equinusocio.vsc-material-theme-33.2.2/build/material.theme.config
+[2021-10-18 12:07:01.242] [exthost] [info] ExtensionService#_doActivateExtension equinusocio.vsc-material-theme-icons, startup: false, activationEvent: '*'
+[2021-10-18 12:07:01.243] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/kiaria/.vscode/extensions/equinusocio.vsc-material-theme-icons-2.2.1/out/src/extension
+[2021-10-18 12:07:01.275] [exthost] [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: '*'
+[2021-10-18 12:07:01.275] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/kiaria/.vscode/extensions/github.copilot-1.5.3217/dist/extension
+[2021-10-18 12:07:01.385] [exthost] [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: '*'
+[2021-10-18 12:07:01.385] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/kiaria/.vscode/extensions/ritwickdey.liveserver-5.6.1/out/src/extension
+[2021-10-18 12:07:01.635] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 3010
+[2021-10-18 12:08:38.422] [exthost] [info] extension host terminating: renderer closed the socket
+[2021-10-18 12:08:39.433] [exthost] [info] exiting with code 0

@@ -1,0 +1,29 @@
+[Data Source]
+DisplayName=pandusrinu1604@gmail.com
+Enabled=true
+Parent=a79c30c0b8c0abb83365e6959c6f29ef144793f4
+
+[Mail Submission]
+SentFolder=folder://local/Sent
+TransportUid=6e844bd5a4fa709c0a76032fa54e086f8de69c1d
+RepliesToOriginFolder=false
+UseSentFolder=true
+
+[Mail Composition]
+Bcc=
+Cc=
+DraftsFolder=folder://local/Drafts
+ReplyStyle=default
+SignImip=true
+TemplatesFolder=
+StartBottom=inconsistent
+TopSignature=inconsistent
+Language=
+
+[Mail Identity]
+Address=pandusrinu1604@gmail.com
+Aliases=
+Name=
+Organization=
+ReplyTo=
+SignatureUid=none

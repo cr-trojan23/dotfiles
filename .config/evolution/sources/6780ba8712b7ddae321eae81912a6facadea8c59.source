@@ -1,0 +1,20 @@
+[Data Source]
+DisplayName=pandusrinu1604@gmail.com
+Enabled=true
+Parent=d02785a7000020812028084d3a9144a8b4792277
+
+[Authentication]
+Host=smtp-mail.outlook.com
+Method=XOAUTH2
+Port=587
+ProxyUid=system-proxy
+RememberPassword=true
+User=pandusrinu1604@gmail.com
+CredentialName=
+IsExternal=false
+
+[Security]
+Method=starttls-on-standard-port
+
+[Mail Transport]
+BackendName=smtp

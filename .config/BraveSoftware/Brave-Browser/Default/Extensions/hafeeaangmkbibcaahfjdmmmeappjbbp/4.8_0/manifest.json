@@ -1,0 +1,22 @@
+{
+   "author": "Priyansh Jain",
+   "background": {
+      "persistent": true,
+      "scripts": [ "background.js" ]
+   },
+   "content_scripts": [ {
+      "js": [ "jquery.js", "jquery.BlockUI.js", "bitmaps.js", "coursepage.js", "internalmarkspage.js", "general.js", "captchaparser.js" ],
+      "matches": [ "*://vtop.vit.ac.in/*" ]
+   } ],
+   "description": "Easier and user-friendly vtop",
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmmrdARir5lfSAfBCH0ANSTi3N46INsjjw3/+ZpdD1RfgCrycwDaG0ht83GAUet944HY6GZm08kOCVSWEYkIJEuldm9oqV2YmkcFAZU4DPLLYC4ntiD9fNgLufO5KTNiSEOoiP60lew624hkzG54QU7NLoOjTUxG9rUkdhIhnleCE7EkR8JasS6B2tU+RP+yy/JNLijDf8eg85/o4liIiNOm9GWobsrWYrGk1hIBoYGIYOtMomR9Uv+irMgBFAJ9m/DUqqgIUAgxGE9ki7yuw0mGzgTVtRKewV4Asyx/3X1zqLPmj7SliC1mJ449YDn24w07JlHTyKDgFl8mR420XvQIDAQAB",
+   "manifest_version": 2,
+   "name": "Enhancer for VIT Vellore Academics",
+   "page_action": {
+      "default_popup": "popup.html"
+   },
+   "permissions": [ "webRequest", "downloads", "storage", "declarativeContent", "activeTab", "*://vtop.vit.ac.in/*" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "4.8",
+   "web_accessible_resources": [ "styles/general/*.css", "styles/font/*.css", "styles/font/*.ttf" ]
+}

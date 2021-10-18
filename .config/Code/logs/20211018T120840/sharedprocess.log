@@ -1,0 +1,17 @@
+[2021-10-18 12:08:52.491] [sharedprocess] [info] [logs cleanup]: Starting to clean up old logs.
+[2021-10-18 12:09:12.487] [sharedprocess] [info] [code cache cleanup]: Starting to clean up old code cache folders.
+[2021-10-18 12:09:12.488] [sharedprocess] [info] [storage cleanup]: Starting to clean up storage folders.
+[2021-10-18 12:09:12.489] [sharedprocess] [info] [storage cleanup]: Deleting storage folder 1634538790177.
+[2021-10-18 12:09:22.489] [sharedprocess] [info] [language pack cache cleanup]: Starting to clean up unused language packs.
+[2021-10-18 12:09:24.526] [sharedprocess] [info] Installing extension: icrawl.discord-vscode
+[2021-10-18 12:09:26.417] [sharedprocess] [info] Downloaded extension: icrawl.discord-vscode /home/kiaria/.config/Code/CachedExtensionVSIXs/icrawl.discord-vscode-5.7.0
+[2021-10-18 12:09:26.440] [sharedprocess] [info] Extracted extension to /home/kiaria/.vscode/extensions/.14d84f65-63a3-4e3f-b9c1-00dc2f43c567: icrawl.discord-vscode
+[2021-10-18 12:09:26.444] [sharedprocess] [info] Renamed to /home/kiaria/.vscode/extensions/icrawl.discord-vscode-5.7.0
+[2021-10-18 12:09:26.445] [sharedprocess] [info] Extracting completed. icrawl.discord-vscode
+[2021-10-18 12:09:26.446] [sharedprocess] [info] Extension installed successfully: icrawl.discord-vscode
+[2021-10-18 12:09:40.297] [sharedprocess] [info] Installing extension: oderwat.indent-rainbow
+[2021-10-18 12:09:42.605] [sharedprocess] [info] Downloaded extension: oderwat.indent-rainbow /home/kiaria/.config/Code/CachedExtensionVSIXs/oderwat.indent-rainbow-8.2.1
+[2021-10-18 12:09:43.485] [sharedprocess] [info] Extracted extension to /home/kiaria/.vscode/extensions/.f7b257c2-5c2a-47ef-938a-20d3c461590c: oderwat.indent-rainbow
+[2021-10-18 12:09:43.491] [sharedprocess] [info] Renamed to /home/kiaria/.vscode/extensions/oderwat.indent-rainbow-8.2.1
+[2021-10-18 12:09:43.491] [sharedprocess] [info] Extracting completed. oderwat.indent-rainbow
+[2021-10-18 12:09:43.492] [sharedprocess] [info] Extension installed successfully: oderwat.indent-rainbow
