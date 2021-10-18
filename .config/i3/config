@@ -106,6 +106,7 @@ bindsym $mod+e layout toggle split
 # toggle tiling / floating
 bindsym $mod+Shift+space floating toggle
 for_window [class="Gnome-calculator"] floating enable
+for_window [class="Thunar"] floating enable
 
 # change focus between tiling / floating windows
 bindsym $mod+space focus mode_toggle
@@ -162,7 +163,7 @@ assign [class="Brave-browser"] $ws2
 assign [class="Code"] $ws3
 assign [class="discord"] $ws4
 assign [class="Org.gnome.Nautilus"] $ws5
-
+assign [class="VirtualBox Manager"] $ws6
 
 #############################
 #   settings for i3-gaps:   #
@@ -319,3 +320,4 @@ bindsym $mod+n exec nautilus
 bindsym $mod+shift+d exec discord
 bindsym $mod+shift+p exec protonvpn-cli c -f
 bindsym $mod+shift+q exec protonvpn-cli d 
+bindsym $mod+t exec thunar
