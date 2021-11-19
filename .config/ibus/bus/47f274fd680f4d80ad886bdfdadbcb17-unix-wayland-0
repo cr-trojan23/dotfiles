@@ -1,7 +1,0 @@
-# This file is created by ibus-daemon, please do not modify it.
-# This file allows processes on the machine to find the
-# ibus session bus with the below address.
-# If the IBUS_ADDRESS environment variable is set, it will
-# be used rather than this file.
-IBUS_ADDRESS=unix:abstract=/home/kiaria/.cache/ibus/dbus-PPq0yylB,guid=82f8f133ea0ad406ff1ff166616bc6ba
-IBUS_DAEMON_PID=15138

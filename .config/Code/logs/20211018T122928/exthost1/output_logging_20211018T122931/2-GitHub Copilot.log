@@ -1,4 +1,0 @@
-[INFO] [default] [2021-10-18T07:00:35.128Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
-[INFO] [default] [2021-10-18T07:00:35.847Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 718 ms
-[INFO] [streamChoices] [2021-10-18T07:00:35.848Z] solution 0 returned. finish reason: ["stop"] finishOffset: [undefined] completionId: [{cmpl-3uGvLAu8U82G9iZlDzdUmEmo3tAnJ}] created: [{1634540435}]
-[INFO] [ghostText] [2021-10-18T07:00:35.849Z] Breaking, no choices

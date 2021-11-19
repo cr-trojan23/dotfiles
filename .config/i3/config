@@ -10,6 +10,7 @@
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
 
 set $mod Mod4
+set $alt Mod1
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
@@ -107,6 +108,8 @@ bindsym $mod+e layout toggle split
 bindsym $mod+Shift+space floating toggle
 for_window [class="Gnome-calculator"] floating enable
 for_window [class="Thunar"] floating enable
+for_window [class="Gnome-control-center"] floating enable
+# for_window [class="VirtualBox Machine"] floating enable
 
 # change focus between tiling / floating windows
 bindsym $mod+space focus mode_toggle
@@ -290,7 +293,9 @@ bindsym Print exec --no-startup-id maim "/home/$USER/Pictures/$(date)"
 bindsym $mod+Print exec --no-startup-id maim --window $(xdotool getactivewindow) "/home/$USER/Pictures/$(date)"
 bindsym Shift+Print exec --no-startup-id maim --select "/home/$USER/Pictures/$(date)"
 
-## Clipboard Screenshots
+#############################
+#   Clipboard Screenshots   #
+#############################	
 bindsym Ctrl+Print exec --no-startup-id maim | xclip -selection clipboard -t image/png
 bindsym Ctrl+$mod+Print exec --no-startup-id maim --window $(xdotool getactivewindow) | xclip -selection clipboard -t image/png
 bindsym Ctrl+Shift+Print exec --no-startup-id maim --select | xclip -selection clipboard -t image/png
@@ -301,12 +306,12 @@ bindsym Ctrl+Shift+Print exec --no-startup-id maim --select | xclip -selection c
 ################## 
 exec_always --no-startup-id $HOME/.config/polybar/forest/launch.sh
 exec --no-startup-id brave-browser
-exec --no-startup-id discord
 exec --no-startup-id i3-sensible-terminal
 exec --no-startup-id compton
 exec_always --no-startup-id $HOME/Documents/mouse_scroll.sh
-exec_always --no-startup-id /usr/bin/feh --randomize ~/.config/i3/feh --bg-fill
+exec --no-startup-id bash $HOME/.config/i3/cron.sh
 exec --no-startup-id code
+exec_always --no-startup-id brightnessctl -d amdgpu_bl0 set 141 -p
 
 #################
 #  KEYBINDINGS  #
@@ -321,3 +326,6 @@ bindsym $mod+shift+d exec discord
 bindsym $mod+shift+p exec protonvpn-cli c -f
 bindsym $mod+shift+q exec protonvpn-cli d 
 bindsym $mod+t exec thunar
+bindsym $mod+i exec gnome-control-center
+bindsym ctrl+shift+Escape gnome-system-monitor
+bindsym $mod+$alt+b brightnessctl -d amdgpu_bl0 set 141 -p

@@ -1,7 +1,0 @@
-{
-    "workbench.iconTheme": "material-icon-theme",
-    "workbench.colorTheme": "Material Theme Ocean",
-    "editor.inlineSuggest.enabled": true,
-    "editor.fontFamily": "'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback','Meslo LGF NF','Hasklug Nerd Font Mono'",
-    "window.menuBarVisibility": "toggle"
-}
