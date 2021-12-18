@@ -253,7 +253,7 @@ bindsym $mod+Shift+c reload
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
 bindsym $mod+Shift+r restart
 # exit i3 (logs you out of your X session)
-bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
+# bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
 
 # resize window (you can also use the mouse for that)
 mode "resize" {
@@ -309,13 +309,16 @@ exec --no-startup-id brave-browser
 exec --no-startup-id i3-sensible-terminal
 exec --no-startup-id compton
 exec_always --no-startup-id $HOME/Documents/mouse_scroll.sh
-exec --no-startup-id bash $HOME/.config/i3/cron.sh
 exec --no-startup-id code
 exec_always --no-startup-id brightnessctl -d amdgpu_bl0 set 141 -p
+exec --no-startup-id feh --bg-scale /home/kiaria/Downloads/alena-aenami-7p-m-1k.jpg
 
 #################
 #  KEYBINDINGS  #
 #################
+bindsym $mod+shift+ctrl+s exec shutdown now
+bindsym $mod+shift+ctrl+r exec reboot
+bindsym $mod+shift+ctrl+l exec i3-msg exit
 bindsym $mod+shift+b exec brave-browser
 bindsym $mod+ctrl+c exec code
 bindsym $mod+ctrl+f exec firefox --private
@@ -327,5 +330,4 @@ bindsym $mod+shift+p exec protonvpn-cli c -f
 bindsym $mod+shift+q exec protonvpn-cli d 
 bindsym $mod+t exec thunar
 bindsym $mod+i exec gnome-control-center
-bindsym ctrl+shift+Escape gnome-system-monitor
-bindsym $mod+$alt+b brightnessctl -d amdgpu_bl0 set 141 -p
+bindsym ctrl+shift+Escape exec gnome-system-monitor
