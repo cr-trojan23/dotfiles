@@ -1,34 +1,23 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
-# i3lock blurred screen inspired by /u/patopop007 and the blog post
-# http://plankenau.com/blog/post-10/gaussianlock
+# set the icon and a temporary location for the screenshot to be stored
+icon="/usr/share/backgrounds/lock.png"
+rm /tmp/screen.png
+tmpbg='/tmp/screen.png'
 
-# Timings are on an Intel i7-2630QM @ 2.00GHz
+# take a screenshot
+scrot "$tmpbg"
 
-# Dependencies:
-# imagemagick
-# i3lock
-# scrot (optional but default)
+# blur the screenshot by resizing and scaling back up
+convert "$tmpbg" -filter Gaussian -thumbnail 20% -sample 500% "$tmpbg"
 
-IMAGE=/home/kiaria/.config/i3/wall2.png
-SCREENSHOT="scrot $IMAGE" # 0.46s
+# overlay the icon onto the screenshot
+# convert "$tmpbg" "$icon" -gravity center -composite "$tmpbg"
 
-# Alternate screenshot method with imagemagick. NOTE: it is much slower
-# SCREENSHOT="import -window root $IMAGE" # 1.35s
+# overlay text onto the screenshot
+convert "$tmpbg" -gravity Center -font MesloLGS NF -fill red -pointsize 32 -annotate 0 ' L O C K E D' "$tmpbg"
 
-# Here are some imagemagick blur types
-# Uncomment one to use, if you have multiple, the last one will be used
+convert "$tmpbg" -gravity Center -font MesloLGS NF -fill blue -pointsize 20 -annotate 0 ' \n\n\n\nEnter password to unlock' "$tmpbg"
 
-# All options are here: http://www.imagemagick.org/Usage/blur/#blur_args
-#BLURTYPE="0x5" # 7.52s
-#BLURTYPE="0x2" # 4.39s
-#BLURTYPE="5x2" # 3.80s
-BLURTYPE="2x8" # 2.90s
-#BLURTYPE="2x3" # 2.92s
-
-# Get the screenshot, add the blur and lock the screen with it
-$SCREENSHOT
-convert $IMAGE -blur $BLURTYPE $IMAGE
-i3lock -i $IMAGE
-rm $IMAGE
-
+# lock the screen with the blurred screenshot
+i3lock -i "$tmpbg"

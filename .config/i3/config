@@ -309,7 +309,7 @@ bindsym Ctrl+Shift+Print exec --no-startup-id maim --select | xclip -selection c
 ##################
 #   AUTOSTART    #
 ################## 
-exec_always --no-startup-id $HOME/.config/polybar/forest/launch.sh
+exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 exec --no-startup-id brave-browser
 exec --no-startup-id i3-sensible-terminal
 exec --no-startup-id compton
@@ -317,7 +317,7 @@ exec_always --no-startup-id $HOME/Documents/mouse_scroll.sh
 exec --no-startup-id code
 exec_always --no-startup-id brightnessctl -d amdgpu_bl0 set 141 -p
 exec --no-startup-id feh --bg-scale /home/kiaria/Downloads/alena-aenami-7p-m-1k.jpg
- exec --no-startup-id xss-lock -l $HOME/.config/i3/lock.sh
+exec --no-startup-id xss-lock -l $HOME/.config/i3/lock.sh
 
 #################
 #  KEYBINDINGS  #
