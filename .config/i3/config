@@ -109,6 +109,8 @@ bindsym $mod+Shift+space floating toggle
 for_window [class="Gnome-calculator"] floating enable
 for_window [class="Thunar"] floating enable
 for_window [class="Gnome-control-center"] floating enable
+for_window [class="Desktop-*"] floating enable
+for_window [class="jetbrains-idea"] floating enable
 # for_window [class="VirtualBox Machine"] floating enable
 
 # change focus between tiling / floating windows
@@ -180,6 +182,9 @@ hide_edge_borders both
 gaps inner 8
 gaps outer 2
 new_window 1pixel
+#smart_borders on
+#smart_borders no_gaps
+border_radius 8
 
 # Additionally, you can issue commands with the following syntax. This is useful to bind keys to changing the gap size.
 # gaps inner|outer current|all set|plus|minus <px>
@@ -312,6 +317,7 @@ exec_always --no-startup-id $HOME/Documents/mouse_scroll.sh
 exec --no-startup-id code
 exec_always --no-startup-id brightnessctl -d amdgpu_bl0 set 141 -p
 exec --no-startup-id feh --bg-scale /home/kiaria/Downloads/alena-aenami-7p-m-1k.jpg
+ exec --no-startup-id xss-lock -l $HOME/.config/i3/lock.sh
 
 #################
 #  KEYBINDINGS  #
@@ -319,15 +325,24 @@ exec --no-startup-id feh --bg-scale /home/kiaria/Downloads/alena-aenami-7p-m-1k.
 bindsym $mod+shift+ctrl+s exec shutdown now
 bindsym $mod+shift+ctrl+r exec reboot
 bindsym $mod+shift+ctrl+l exec i3-msg exit
+bindsym $mod+shift+ctrl+q exec $HOME/.config/i3/lock.sh
 bindsym $mod+shift+b exec brave-browser
 bindsym $mod+ctrl+c exec code
+bindsym $mod+n exec nautilus
 bindsym $mod+ctrl+f exec firefox --private
 bindsym $mod+g exec gnome-calculator
-bindsym ctrl+shift+m exec $HOME/Documents/mouse_scroll.sh
-bindsym $mod+n exec nautilus
+bindsym $mod+shift+n exec $HOME/netbeans-12.6/netbeans/bin/netbeans
+bindsym $mod+shift+i exec $HOME/Downloads/idea-IU-213.6461.79/bin/idea.sh
 bindsym $mod+shift+d exec discord
 bindsym $mod+shift+p exec protonvpn-cli c -f
 bindsym $mod+shift+q exec protonvpn-cli d 
 bindsym $mod+t exec thunar
 bindsym $mod+i exec gnome-control-center
 bindsym ctrl+shift+Escape exec gnome-system-monitor
+bindsym ctrl+shift+m exec $HOME/Documents/mouse_scroll.sh
+bindsym $mod+shift+e exec google-chrome-stable
+
+#######################
+#     Lock Screen     #
+#######################
+exec xautolock -detectsleep -time 5 -locker "$HOME/.config/i3/lock.sh" -notify 5 -notifier "notify-send -u critical -t 10000 -- 'locking screen in 30 seconds'"
