@@ -25,7 +25,7 @@ font pango: Hasklug Nerd Font Mono 9
 
 # xss-lock grabs a logind suspend inhibit lock and will use i3lock to lock the
 # screen before suspend. Use loginctl lock-session to lock your screen.
-exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
+# exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 
 # NetworkManager is the most popular way to manage wireless networks on Linux,
 # and nm-applet is a desktop environment-independent system tray GUI for it.
@@ -111,6 +111,8 @@ for_window [class="Thunar"] floating enable
 for_window [class="Gnome-control-center"] floating enable
 for_window [class="Desktop-*"] floating enable
 for_window [class="jetbrains-idea"] floating enable
+for_window [class="Google-chrome"] floating enable
+for_window [class="Joplin"] floating enable
 # for_window [class="VirtualBox Machine"] floating enable
 
 # change focus between tiling / floating windows
@@ -169,6 +171,7 @@ assign [class="Code"] $ws3
 assign [class="discord"] $ws4
 assign [class="Org.gnome.Nautilus"] $ws5
 assign [class="VirtualBox Manager"] $ws6
+assign [class="libreoffice"] $ws7
 
 #############################
 #   settings for i3-gaps:   #
@@ -305,7 +308,8 @@ bindsym Shift+Print exec --no-startup-id maim --select "/home/$USER/Pictures/$(d
 #############################	
 bindsym Ctrl+Print exec --no-startup-id maim | xclip -selection clipboard -t image/png
 bindsym Ctrl+$mod+Print exec --no-startup-id maim --window $(xdotool getactivewindow) | xclip -selection clipboard -t image/png
-bindsym Ctrl+Shift+Print exec --no-startup-id maim --select | xclip -selection clipboard -t image/png
+#bindsym Ctrl+Shift+Print exec --no-startup-id maim -o --select | xclip -selection clipboard -t image/png
+bindsym Ctrl+Shift+Print exec --no-startup-id flameshot gui
 
 
 ##################
@@ -318,7 +322,7 @@ exec_always --no-startup-id picom --experimental-backends
 exec_always --no-startup-id $HOME/Documents/mouse_scroll.sh
 exec --no-startup-id code
 exec_always --no-startup-id brightnessctl -d amdgpu_bl0 set 141 -p
-exec --no-startup-id feh --bg-scale /home/kiaria/Downloads/alena-aenami-7p-m-1k.jpg
+exec --no-startup-id feh --bg-scale /usr/share/backgrounds/alena_homescreen.jpg
 exec --no-startup-id xss-lock -l $HOME/.config/i3/lock.sh
 
 #################
@@ -343,6 +347,7 @@ bindsym $mod+i exec gnome-control-center
 bindsym ctrl+shift+Escape exec gnome-system-monitor
 bindsym ctrl+shift+m exec $HOME/Documents/mouse_scroll.sh
 bindsym $mod+shift+e exec google-chrome-stable
+bindsym $mod+shift+t exec $HOME/Downloads/Jopin-2.6.10.AppImage
 
 #######################
 #     Lock Screen     #
