@@ -107,7 +107,12 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias cb="/usr/bin/cb.sh"
+alias gcmr="git commit -m 'Update README.md'"
+alias gcmi="git commit -m 'Initial Commit'"
+
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 . /usr/share/autojump/autojump.sh
+neofetch 
