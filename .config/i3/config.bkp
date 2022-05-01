@@ -316,8 +316,7 @@ bindsym Ctrl+Shift+Print exec --no-startup-id flameshot gui
 #   AUTOSTART    #
 ################## 
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
-# exec --no-startup-id brave-browser http://phc.prontonetworks.com/cgi-bin/authlogin?URI=http://captive.apple.com/hotspot-detect.html
-exec --no-startup-id $HOME/.config/i3/braveas.sh &
+exec --no-startup-id brave-browser
 exec --no-startup-id i3-sensible-terminal
 exec_always --no-startup-id picom --experimental-backends
 exec_always --no-startup-id $HOME/Documents/mouse_scroll.sh
@@ -333,8 +332,7 @@ bindsym $mod+shift+ctrl+s exec shutdown now
 bindsym $mod+shift+ctrl+r exec reboot
 bindsym $mod+shift+ctrl+l exec i3-msg exit
 bindsym $mod+shift+ctrl+q exec $HOME/.config/i3/lock.sh
-# bindsym $mod+shift+b exec brave-browser http://phc.prontonetworks.com/cgi-bin/authlogin?URI=http://captive.apple.com/hotspot-detect.html
-bindsym $mod+shift+b exec $HOME/.config/i3/braveas.sh &
+bindsym $mod+shift+b exec brave-browser
 bindsym $mod+ctrl+c exec code
 bindsym $mod+n exec nautilus
 bindsym $mod+ctrl+f exec firefox --private
@@ -356,4 +354,4 @@ bindsym $mod+alt+c exec wine /home/kiaria/Downloads/trash_things/Cisco\ Packet\ 
 #######################
 #     Lock Screen     #
 #######################
-# exec xautolock -detectsleep -time 5 -locker "$HOME/.config/i3/lock.sh" -notify 5 -notifier "notify-send -u critical -t 10000 -- 'locking screen in 30 seconds'"
+#xec xautolock -detectsleep -time 5 -locker "$HOME/.config/i3/lock.sh" -notify 5 -notifier "notify-send -u critical -t 10000 -- 'locking screen in 30 seconds'"
