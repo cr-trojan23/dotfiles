@@ -321,10 +321,11 @@ exec --no-startup-id $HOME/.config/i3/braveas.sh &
 exec --no-startup-id i3-sensible-terminal
 exec_always --no-startup-id picom --experimental-backends
 exec_always --no-startup-id $HOME/Documents/mouse_scroll.sh
-exec --no-startup-id code
+#exec --no-startup-id code
 exec_always --no-startup-id brightnessctl -d amdgpu_bl0 set 141 -p
 exec --no-startup-id feh --bg-scale /usr/share/backgrounds/alena_homescreen.jpg
 exec --no-startup-id xss-lock -l $HOME/.config/i3/lock.sh
+exec_always --no-startup-id echo 116 > /sys/class/backlight/amdgpu_bl0/brightness
 
 #################
 #  KEYBINDINGS  #
