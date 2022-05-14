@@ -316,13 +316,10 @@ bindsym Ctrl+Shift+Print exec --no-startup-id flameshot gui
 #   AUTOSTART    #
 ################## 
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
-# exec --no-startup-id brave-browser http://phc.prontonetworks.com/cgi-bin/authlogin?URI=http://captive.apple.com/hotspot-detect.html
 exec --no-startup-id $HOME/.config/i3/braveas.sh &
 exec --no-startup-id i3-sensible-terminal
 exec_always --no-startup-id picom --experimental-backends
-exec_always --no-startup-id $HOME/Documents/mouse_scroll.sh
 #exec --no-startup-id code
-exec_always --no-startup-id brightnessctl -d amdgpu_bl0 set 141 -p
 exec --no-startup-id feh --bg-scale /usr/share/backgrounds/alena_homescreen.jpg
 exec --no-startup-id xss-lock -l $HOME/.config/i3/lock.sh
 exec_always --no-startup-id echo 116 > /sys/class/backlight/amdgpu_bl0/brightness
@@ -334,25 +331,23 @@ bindsym $mod+shift+ctrl+s exec shutdown now
 bindsym $mod+shift+ctrl+r exec reboot
 bindsym $mod+shift+ctrl+l exec i3-msg exit
 bindsym $mod+shift+ctrl+q exec $HOME/.config/i3/lock.sh
-# bindsym $mod+shift+b exec brave-browser http://phc.prontonetworks.com/cgi-bin/authlogin?URI=http://captive.apple.com/hotspot-detect.html
+bindsym $mod+shift+ctrl+p exec $HOME/.config/i3/psave.sh
 bindsym $mod+shift+b exec $HOME/.config/i3/braveas.sh &
 bindsym $mod+ctrl+c exec code
 bindsym $mod+n exec nautilus
-bindsym $mod+ctrl+f exec firefox --private
+bindsym $mod+ctrl+f exec flatpak run org.mozilla.firefox --private
 bindsym $mod+g exec gnome-calculator
 bindsym $mod+shift+n exec $HOME/netbeans-12.6/netbeans/bin/netbeans
-#bindsym $mod+shift+i exec $HOME/Downloads/idea-IU-213.6461.79/bin/idea.sh
 bindsym $mod+shift+d exec discord
 bindsym $mod+shift+p exec protonvpn-cli c -f
 bindsym $mod+shift+q exec protonvpn-cli d 
 bindsym $mod+t exec thunar
 bindsym $mod+i exec gnome-control-center
 bindsym ctrl+shift+Escape exec gnome-system-monitor
-bindsym ctrl+shift+m exec $HOME/Documents/mouse_scroll.sh
 bindsym $mod+shift+e exec google-chrome-stable
 bindsym $mod+shift+t exec flatpak run org.telegram.desktop
 bindsym $mod+shift+s exec flatpak run com.spotify.Client
-bindsym $mod+alt+c exec wine /home/kiaria/Downloads/trash_things/Cisco\ Packet\ Tracer\ 6.2sv/bin/PacketTracer6.exe
+bindsym $ctrl+shift+b exec $HOME/.config/i3/bright.sh
 
 #######################
 #     Lock Screen     #

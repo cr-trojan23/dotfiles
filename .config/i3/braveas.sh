@@ -1,7 +1,5 @@
-brave-browser http://phc.prontonetworks.com/cgi-bin/authlogin? &
+brave-browser http://phc.prontonetworks.com/cgi-bin/authlogin? http://phc.prontonetworks.com/cgi-bin/authlogin?URI=http://captive.apple.com/hotspot-detect.html & 
 sleep 5
 pkill brave
-pkill brave-browser
 brave-browser &
-reload
-restart
+$HOME/.config/polybar/launch.sh
