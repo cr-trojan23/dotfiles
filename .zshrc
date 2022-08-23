@@ -84,6 +84,7 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=23'
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
@@ -110,9 +111,18 @@ source $ZSH/oh-my-zsh.sh
 alias cb="/usr/bin/cb.sh"
 alias gcmr="git commit -m 'Update README.md'"
 alias gcmi="git commit -m 'Initial Commit'"
-
+alias bname="/usr/bin/bname.sh"
+alias tf="terraform"
+alias gpm="git push origin main"
+alias btd="bluetoothctl disconnect"
+alias btc="bluetoothctl connect 92:58:34:19:63:1C"
+alias bt="bluetoothctl"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 . /usr/share/autojump/autojump.sh
 neofetch 
+
+autoload -U +X bashcompinit && bashcompinit
+complete -o nospace -C /usr/bin/terraform terraform
+eval "$(pyenv init -)"
