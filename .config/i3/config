@@ -103,6 +103,8 @@ bindsym $mod+Shift+space floating toggle
 for_window [class="Gnome-calculator"] floating enable
 for_window [class="Thunar"] floating enable
 for_window [class="Gnome-control-center"] floating enable
+for_window [class="weka-gui-GUIChooser"] floating enable
+for_window [class="Signal"] floating enable
 # for_window [class="VirtualBox Machine"] floating enable
 
 # change focus between tiling / floating windows
@@ -161,14 +163,14 @@ assign [class="Code"] $ws3
 assign [class="discord"] $ws4
 assign [class="Org.gnome.Nautilus"] $ws5
 assign [class="VirtualBox Manager"] $ws6
-assign [class="Spotify"] $ws7
+assign [class="Slack"] $ws7
 
 #############################
 #   settings for i3-gaps:   #
 #############################
 
 # Set inner/outer gaps
-for_window [class="^.*"] border pixel 0
+for_window [class="^.*"] border pixel 1
 default_border pixel 1
 default_floating_border pixel 1
 hide_edge_borders both
@@ -238,7 +240,7 @@ set $bg "#888888"
 #################
 
 # class                 border  backgr. text    indicator child_border
-client.focused          #ef4f4f #285577 #ffffff #16c79a   #16c79a
+client.focused          #ef4f4f #285577 #ffffff #595e5d   #595e5d
 client.focused_inactive #333333 #5f676a #ffffff #484e50   #5f676a
 client.unfocused        #333333 #222222 #888888 #292d2e   #222222
 client.urgent           #2f343a #900000 #ffffff #900000   #900000
@@ -303,40 +305,44 @@ bindsym Ctrl+$mod+Print exec --no-startup-id maim --window $(xdotool getactivewi
 
 ##################
 #   AUTOSTART    #
-################## 
+##################
+exec --no-startup-id xrandr -s 2560x1440 
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 exec_always --no-startup-id picom --experimental-backends
-exec --no-startup-id $HOME/.config/i3/braveas.sh &
+exec --no-startup-id brave-browser
 exec --no-startup-id i3-sensible-terminal
 exec --no-startup-id feh --bg-scale /usr/share/backgrounds/alena-homescreen2.jpg
 
 #################
 #  KEYBINDINGS  #
 #################
-bindsym Ctrl+Shift+Print exec flameshot gui
-bindsym ctrl+shift+Escape exec gnome-system-monitor
-bindsym $mod+shift+ctrl+s exec shutdown now
-bindsym $mod+shift+ctrl+r exec reboot
-bindsym $mod+shift+ctrl+l exec i3-msg exit
-bindsym $mod+shift+ctrl+q exec $HOME/.config/i3/lock.sh
-bindsym $mod+shift+ctrl+p exec $HOME/.config/i3/psave.sh
-bindsym $mod+shift+b exec $HOME/.config/i3/braveas.sh
-bindsym $mod+shift+e exec google-chrome-stable
-bindsym $mod+shift+n exec $HOME/netbeans-12.6/netbeans/bin/netbeans
+bindsym $mod+d exec rofi -show run -display-run ""
+bindsym $mod+g exec gnome-calculator
+bindsym $mod+i exec gnome-control-center
+bindsym $mod+n exec nautilus
+bindsym $mod+t exec thunar
+bindsym $mod+shift+a exec signal-desktop
+bindsym $mod+shift+b exec brave-browser 
+bindsym $mod+shift+c exec code
 bindsym $mod+shift+d exec discord
+bindsym $mod+shift+e exec google-chrome-stable
+bindsym $mod+shift+n exec flatpak run org.apache.netbeans
 bindsym $mod+shift+p exec protonvpn-cli c -f
 bindsym $mod+shift+q exec protonvpn-cli d 
-bindsym $mod+shift+c exec code
-bindsym $mod+Return exec i3-sensible-terminal
-bindsym $mod+g exec gnome-calculator
-bindsym $mod+t exec thunar
-bindsym $mod+n exec nautilus
-bindsym $mod+i exec gnome-control-center
-bindsym $mod+d exec rofi -show run -display-run ""
+bindsym $mod+shift+s exec flatpak run com.slack.Slack
+bindsym $mod+shift+t exec flatpak run org.telegram.desktop
+bindsym $mod+shift+v exec vivaldi
 bindsym $mod+ctrl+f exec flatpak run org.mozilla.firefox
 bindsym $mod+ctrl+p exec flatpak run org.mozilla.firefox --private
-bindsym $mod+shift+t exec flatpak run org.telegram.desktop
-bindsym $mod+shift+s exec flatpak run com.spotify.Client
+bindsym $mod+ctrl+w exec $HOME/Documents/weka-3-8-6/weka.sh
+bindsym $mod+shift+ctrl+l exec i3-msg exit
+bindsym $mod+shift+ctrl+p exec $HOME/.config/i3/psave.sh
+bindsym $mod+shift+ctrl+q exec $HOME/.config/i3/lock.sh
+bindsym $mod+shift+ctrl+r exec reboot
+bindsym $mod+shift+ctrl+s exec shutdown now
+bindsym $mod+Return exec i3-sensible-terminal
+bindsym Ctrl+Shift+Print exec flameshot gui
+bindsym ctrl+shift+Escape exec gnome-system-monitor
 
 #######################
 #     Lock Screen     #

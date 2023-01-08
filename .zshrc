@@ -117,12 +117,15 @@ alias gpm="git push origin main"
 alias btd="bluetoothctl disconnect"
 alias btc="bluetoothctl connect 92:58:34:19:63:1C"
 alias bt="bluetoothctl"
+alias bts="bluetoothctl connect 1C:90:1D:B7:1E:7B"
+alias awscfn="aws cloudformation"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 . /usr/share/autojump/autojump.sh
 neofetch 
 
+eval $(thefuck --alias fuck)
 autoload -U +X bashcompinit && bashcompinit
 complete -o nospace -C /usr/bin/terraform terraform
 eval "$(pyenv init -)"
